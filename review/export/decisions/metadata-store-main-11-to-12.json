@@ -1,0 +1,12 @@
+{
+  "composable": false,
+  "decision": "approve-B",
+  "flags": "j",
+  "kind": "repair",
+  "notes": "",
+  "ops": "in(associations: map(in(metadatum: in(hidden: compute))))",
+  "reviewedAt": "2026-11-16T01:55:31.908Z",
+  "step": "11->12",
+  "sub": "",
+  "system": "metadata-store"
+}

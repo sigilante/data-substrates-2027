@@ -1,0 +1,12 @@
+{
+  "composable": false,
+  "decision": "approve-B",
+  "flags": "j",
+  "kind": "repair",
+  "notes": "",
+  "ops": "remove(nas); add(nas); remove(own); add(own); remove(spo); add(spo); remove(logs); add(logs)",
+  "reviewedAt": "2026-11-16T01:46:13.975Z",
+  "step": "4->5",
+  "sub": "",
+  "system": "azimuth"
+}

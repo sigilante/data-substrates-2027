@@ -1,0 +1,12 @@
+{
+  "composable": false,
+  "decision": "approve-B",
+  "flags": "",
+  "kind": "repair",
+  "notes": "",
+  "ops": "in(peers: map(in(snd: map(in(packet-pump-state: in(metrics: in(num-live: compute)))))))",
+  "reviewedAt": "2026-11-16T01:42:47.489Z",
+  "step": "4->5",
+  "sub": "",
+  "system": "Ames"
+}

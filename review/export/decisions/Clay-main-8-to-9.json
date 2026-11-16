@@ -1,0 +1,12 @@
+{
+  "composable": true,
+  "decision": "approve-B",
+  "flags": "",
+  "kind": "discard",
+  "notes": "",
+  "ops": "in(rom: in(dos: map(in(dom: remove(fer), add(fod))))); in(hoy: map(in(rus: map(in(dom: remove(fer), add(fod))))))",
+  "reviewedAt": "2026-11-16T01:43:58.288Z",
+  "step": "8->9",
+  "sub": "",
+  "system": "Clay"
+}

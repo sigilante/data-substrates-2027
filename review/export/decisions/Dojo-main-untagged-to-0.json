@@ -1,0 +1,12 @@
+{
+  "composable": true,
+  "decision": "approve-B",
+  "flags": "",
+  "kind": "add",
+  "notes": "",
+  "ops": "in(hoc: map(add(buf)))",
+  "reviewedAt": "2026-11-16T01:45:19.056Z",
+  "step": "untagged->0",
+  "sub": "",
+  "system": "Dojo"
+}

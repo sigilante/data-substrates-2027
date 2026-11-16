@@ -1,0 +1,12 @@
+{
+  "composable": false,
+  "decision": "approve-A",
+  "flags": "j",
+  "kind": "discard",
+  "notes": "",
+  "ops": "map(in(graph: map(in(post: in(contents: filter))))); map(in(archive: map(in(post: in(contents: filter))))); map(in(update-log: map(in(add-graph|add-nodes: map(in(post: in(contents: filter)))))))",
+  "reviewedAt": "2026-11-16T01:38:14.958Z",
+  "step": "2->3",
+  "sub": "",
+  "system": "graph-store"
+}

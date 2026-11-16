@@ -1,0 +1,12 @@
+{
+  "composable": false,
+  "decision": "approve-A",
+  "flags": "j",
+  "kind": "reshape",
+  "notes": "",
+  "ops": "add;in(peers: map(add;in(snd: map(in(unsent-messages: map(compute))))))",
+  "reviewedAt": "2026-11-16T01:39:04.673Z",
+  "step": "18->19",
+  "sub": "",
+  "system": "Ames"
+}

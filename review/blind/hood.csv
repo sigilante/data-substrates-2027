@@ -1,0 +1,25 @@
+system,sub,step,delta_source,delta_commit,evidence_hint
+Hood,outer,0->1,introducing commit,651fb265e4,
+Hood,outer,2->3,introducing commit,7fced14cfc,
+Hood,outer,3->4,introducing commit,003c4676b1,
+Hood,outer,4->5,introducing commit,096149713a,
+Hood,outer,5->6,introducing commit,eaf523e3c2,
+Hood,outer,6->7,introducing commit,3914c0c0dd,3914c0c0dd:pkg/arvo/app/hood.hoon:50
+Hood,outer,9->10,introducing commit,a4e21da3f0,
+Hood,outer,10->11,introducing commit,1b8af7d78c,
+Hood,outer,11->12,introducing commit,7ffce92c37,
+Hood,outer,12->13,introducing commit,65c35bb50b,
+Hood,outer,27->28,introducing commit,2e654a67f4,
+Hood,outer,28->29,introducing commit,d08c6c0b9f,
+Hood,kiln,0->1,introducing commit,11fa48f57b,11fa48f57b:pkg/arvo/lib/hood/kiln.hoon:97
+Hood,kiln,1->2,introducing commit,391886e13c,
+Hood,kiln,3->4,introducing commit,4dfc09d1a4,
+Hood,kiln,4->5,introducing commit,248b968550,pkg/arvo/lib/hood/kiln.hoon:417
+Hood,kiln,5->6,introducing commit,39a9ed4faa,
+Hood,kiln,6->7,introducing commit,31f5898087,pkg/arvo/lib/hood/kiln.hoon:428
+Hood,kiln,8->9,introducing commit,8ed93c27c4,
+Hood,kiln,9->10,introducing commit,0d757b4436,0d757b4436:pkg/arvo/lib/hood/kiln.hoon:441
+Hood,kiln,10->11,introducing commit,4440eaced6,
+Hood,drum,2/3->4,introducing commit,4cb5cd0ba1,pkg/arvo/lib/hood/drum.hoon:222
+Hood,drum,4->5,introducing commit,707249beb9,pkg/arvo/lib/hood/drum.hoon:224
+Hood,drum,5->6,introducing commit,707249beb9,

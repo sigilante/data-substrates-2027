@@ -1,0 +1,12 @@
+{
+  "composable": false,
+  "decision": "approve-B",
+  "flags": "ej",
+  "kind": "derive",
+  "notes": "",
+  "ops": "remove(autoload-on); remove(cur-hoon); remove(cur-arvo); remove(cur-zuse); remove(cur-vanes); add(ota); in(syn: filter); in(ota: compute)",
+  "reviewedAt": "2026-11-16T01:45:43.566Z",
+  "step": "0->1",
+  "sub": "kiln",
+  "system": "Hood"
+}

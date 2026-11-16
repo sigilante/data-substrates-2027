@@ -1,0 +1,12 @@
+{
+  "composable": false,
+  "decision": "approve-B",
+  "flags": "",
+  "kind": "re-encode",
+  "notes": "",
+  "ops": "in(eggs: map(re-encode)); in(blocked: map(map(in(move: re-encode))))",
+  "reviewedAt": "2026-11-16T01:42:59.996Z",
+  "step": "19->20",
+  "sub": "",
+  "system": "Gall"
+}

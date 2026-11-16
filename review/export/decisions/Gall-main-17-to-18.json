@@ -1,0 +1,12 @@
+{
+  "composable": true,
+  "decision": "approve-B",
+  "flags": "",
+  "kind": "add",
+  "notes": "",
+  "ops": "add(flub-ducts); add(flubs); add(halts)",
+  "reviewedAt": "2026-11-16T01:43:08.126Z",
+  "step": "17->18",
+  "sub": "",
+  "system": "Gall"
+}

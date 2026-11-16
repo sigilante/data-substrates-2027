@@ -1,0 +1,25 @@
+system,sub,step,delta_source,delta_commit,evidence_hint
+Ames,old,nest->reset,introducing commit,dac62b87e2,dac62b87e2:arvo/ames.hoon:1460
+Ames,old,furt0->fort1,introducing commit,bd4f650f5e,
+Ames,old,%0->%1,introducing commit,adc9da0b0c,
+Ames,,1->2,develop merge,9ba4505086,
+Ames,,2->3,develop merge,9ba4505086,7956adedee^:pkg/arvo/sys/vane/ames.hoon:728
+Ames,,3->4,develop merge,e0c3ce08c8,7956adedee^:pkg/arvo/sys/vane/ames.hoon:592
+Ames,,4->5,develop merge,6cecfaf430,
+Ames,,5->6,develop merge,39ac7cb820,
+Ames,,6->7,develop merge,618fc0fe5a,
+Ames,,7->8,develop merge,618fc0fe5a,
+Ames,,9->10,develop merge,fa451613ec,
+Ames,,12->13,develop merge,9b636eb188,
+Ames,,13->14,develop merge,51e85291c1,pkg/arvo/sys/vane/ames.hoon:3490
+Ames,,15->16,develop merge,95d754a943,
+Ames,,16->17,develop merge,e21f346ca8,pkg/arvo/sys/vane/ames.hoon:3523
+Ames,,17->18,develop merge,410f491938,
+Ames,,19->20,develop merge,9f9644cbb1,
+Ames,,20->21,develop merge,880655b8f5,pkg/arvo/sys/vane/ames.hoon:3635
+Ames,,21->22,develop merge,7245ae1148,
+Ames,,22->23,develop merge,ac87d8bbb3,pkg/arvo/sys/vane/ames.hoon:3661
+Ames,,23->24,develop merge,177dc69fb9,
+Ames,,24->25,develop merge,cec4fa73c1,
+Ames,,27->28,develop merge,d1d7e29932,
+Ames,,29->30,develop merge,42dc6036b1,

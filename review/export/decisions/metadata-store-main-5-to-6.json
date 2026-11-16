@@ -1,0 +1,12 @@
+{
+  "composable": true,
+  "decision": "approve-B",
+  "flags": "",
+  "kind": "reshape",
+  "notes": "",
+  "ops": "in(associations: map(in(md-resource: in(app-name: convert), in(path: plunge(ship))), in(metadatum: in(module: convert))))",
+  "reviewedAt": "2026-11-16T01:46:05.983Z",
+  "step": "5->6",
+  "sub": "",
+  "system": "metadata-store"
+}

@@ -1,0 +1,12 @@
+{
+  "composable": true,
+  "decision": "approve-A",
+  "flags": "",
+  "kind": "discard",
+  "notes": "",
+  "ops": "remove cli; remove eny",
+  "reviewedAt": "2026-11-16T01:34:37.942Z",
+  "step": "1->2",
+  "sub": "",
+  "system": "chat-cli"
+}

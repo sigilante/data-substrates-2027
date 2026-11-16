@@ -1,0 +1,12 @@
+{
+  "composable": true,
+  "decision": "approve-B",
+  "flags": "",
+  "kind": "add",
+  "notes": "",
+  "ops": "in(sending: map(in(txs: map(add(force)))))",
+  "reviewedAt": "2026-11-16T01:57:08.062Z",
+  "step": "4->5",
+  "sub": "",
+  "system": "roller"
+}

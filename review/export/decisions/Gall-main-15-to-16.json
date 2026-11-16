@@ -1,0 +1,12 @@
+{
+  "composable": false,
+  "decision": "approve-A",
+  "flags": "j",
+  "kind": "reshape",
+  "notes": "",
+  "ops": "in(eggs: map(remove;add;add;add;add;in(sky: container;map(in(fan: compute;container)))))",
+  "reviewedAt": "2026-11-16T01:39:14.617Z",
+  "step": "15->16",
+  "sub": "",
+  "system": "Gall"
+}

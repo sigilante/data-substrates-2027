@@ -1,0 +1,12 @@
+{
+  "composable": true,
+  "decision": "approve-B",
+  "flags": "",
+  "kind": "reshape",
+  "notes": "",
+  "ops": "in(bin: map(in(fug: map(in(blt: in(p: map(wrap)), in(q: map(wrap))))))); plunge(eel: bin)",
+  "reviewedAt": "2026-11-16T01:45:58.953Z",
+  "step": "4->5",
+  "sub": "drum",
+  "system": "Hood"
+}

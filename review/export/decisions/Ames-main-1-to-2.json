@@ -1,0 +1,12 @@
+{
+  "composable": true,
+  "decision": "approve-B",
+  "flags": "",
+  "kind": "add",
+  "notes": "",
+  "ops": "add(veb); in(peers: map(in(qos: add(last-contact))))",
+  "reviewedAt": "2026-11-16T01:42:51.609Z",
+  "step": "1->2",
+  "sub": "",
+  "system": "Ames"
+}

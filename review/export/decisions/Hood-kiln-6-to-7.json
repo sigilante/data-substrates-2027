@@ -1,0 +1,12 @@
+{
+  "composable": true,
+  "decision": "approve-B",
+  "flags": "",
+  "kind": "reshape",
+  "notes": "",
+  "ops": "in(ark: map(plunge(rail: next), in(rail: wrap)))",
+  "reviewedAt": "2026-11-16T01:54:57.510Z",
+  "step": "6->7",
+  "sub": "kiln",
+  "system": "Hood"
+}

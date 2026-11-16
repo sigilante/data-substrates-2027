@@ -1,0 +1,12 @@
+{
+  "composable": true,
+  "decision": "approve-B",
+  "flags": "",
+  "kind": "reshape",
+  "notes": "",
+  "ops": "hoist(lac.drum); hoist(lac.helm); hoist(lac.kiln); remove(lac)",
+  "reviewedAt": "2026-11-16T01:45:41.299Z",
+  "step": "6->7",
+  "sub": "outer",
+  "system": "Hood"
+}

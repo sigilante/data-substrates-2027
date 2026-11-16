@@ -1,0 +1,112 @@
+system,sub,step,kind,flags,date,date_kind,note,ops,lens
+Gall,,0->1,none,,2019-10-25,develop,,,yes
+Gall,,1->2,add,,2019-12-05,develop,,add,yes
+Gall,,2->3,none,,2020-02-10,develop,,,yes
+Gall,,3->4,discard,j,2020-04-21,develop,,remove;add,no
+Gall,,4->5,discard,j,2020-04-22,develop,,remove;add,no
+Gall,,5->6,discard,j,2020-04-24,develop,live core replaced by on-save vase,remove;add;rename;in(eggs: map(remove;rename;in(old-state: compute))),no
+Gall,,6->7,add,,2020-08-26,develop,,add,yes
+Gall,,7->8,reshape,,2021-10-04,develop,,remove;in(eggs: map(in(old-state: convert))),yes
+Gall,,8->9,reshape,,2022-11-15,develop,,add;in(eggs: map(hoist;hoist;rename;rename;remove;add;compute)),no
+Gall,,9->10,discard,j,2022-11-15,develop,,in(outstanding: map(filter)),no
+Gall,,10->11,reshape,,2023-01-04,develop,,in(eggs: map(remove;add;in(old-state: convert))),yes
+Gall,,11->12,add,,2023-04-25,develop,,add,yes
+Gall,,12->13,add,,2023-05-01,develop,,add,yes
+Gall,,13->14,add,,2023-08-29,develop,,add,yes
+Gall,,14->15,add,,2023-10-09,develop,,add,yes
+Gall,,15->16,reshape,j,2024-01-31,develop,namespace migration #6852,in(eggs: map(remove;add;add;add;add;in(sky: container;map(in(fan: compute;container))))),no
+Gall,,16->17,discard,j,2025-06-16,develop,buggy; repaired by 18->19 (#7271),in(blocked: map(filter;map(in(duct: compute)))),no
+Gall,,17->18,add,,2025-11-04,develop,,add,yes
+Gall,,18->19,repair,,2025-12-18,develop,,compute,no
+Gall,,19->20,re-encode,,2026-04-02,develop,,re-encode,no
+Ames,old,nest->reset,discard,,2014-04-11,intro,dac62b87e2 ~&(%ames-reset ..^$),remove;add,yes
+Ames,old,furt0->fort1,add,,2017-05-16,intro,bd4f650f5e adds bad,add,yes
+Ames,old,%0->%1,add,,2018-04-25,intro,adc9da0b0c adds ten; later reverted,add,yes
+Ames,,1->2,add,,2019-12-12,develop,,add,yes
+Ames,,2->3,reshape,,2019-12-12,develop,,add;plunge;in(bug: add),yes
+Ames,,3->4,discard,j,2020-07-27,develop,,in(events: filter),no
+Ames,,4->5,repair,,2021-03-05,develop,,compute,no
+Ames,,5->6,derive,o,2022-06-07,develop,,compute;read,no
+Ames,,6->7,add,,2022-11-15,develop,,add,yes
+Ames,,7->8,add,e,2022-11-15,develop,,add,no
+Ames,,8->9,add,,2023-01-17,develop,,add,yes
+Ames,,9->10,add,,2023-02-01,develop,,add,yes
+Ames,,10->11,add,,2023-02-13,develop,,add,yes
+Ames,,11->12,reshape,,2023-03-17,develop,,remove;plunge;add;in(peers: map(remove)),yes
+Ames,,12->13,re-encode,o,2023-04-25,develop,,re-encode,no
+Ames,,13->14,reshape,,2023-05-02,develop,,in(peers: map(in(keens: map(in(wan: container))))),no
+Ames,,14->15,derive,o,2023-06-20,develop,,compute;read,no
+Ames,,15->16,repair,,2023-08-17,develop,,compute,no
+Ames,,16->17,reshape,eo,2023-08-29,develop,,add;add;in(peers: map(in(snd: map(in(packet-pump-state: in(metrics: remove))));in(keens: map(in(metrics: remove)));in(rcv: map(in(nax: filter))))),no
+Ames,,17->18,none,e,2023-11-07,develop,,,no
+Ames,,18->19,reshape,j,2024-01-31,develop,,add;in(peers: map(add;in(snd: map(in(unsent-messages: map(compute)))))),no
+Ames,,19->20,add,e,2024-03-20,develop,,add,no
+Ames,,20->21,discard,j,2024-04-21,develop,,in(peers: map(remove)),no
+Ames,,21->22,add,e,2024-11-05,develop,,add,no
+Ames,,22->23,reshape,e,2024-11-25,develop,,compute;remove;in(dead: add);rename;add;add,no
+Ames,,23->24,derive,j,2025-02-27,develop,,compute,no
+Ames,,24->25,add,j,2025-03-18,develop,,add,no
+Ames,,25->26,add,,2025-08-05,develop,,add,yes
+Ames,,26->27,none,eo,2025-08-13,develop,,,no
+Ames,,27->28,add,,2025-11-04,develop,,add,yes
+Ames,,28->29,none,eo,2025-12-02,develop,,,no
+Ames,,29->30,derive,,2026-04-02,develop,,compute,no
+Ames,,30->31,discard,j,2026-04-10,develop,,convert;in(chums: map(remove)),no
+Clay,,2->3,reshape,ej,2020-07-27,develop,,remove;remove;add;compute;in(rom: in(dos: map(in(dom: add;compute))));in(hoy: map(in(rus: map(in(dom: add;add);in(ref: remove;remove;in(bom: filter);in(fod: filter);in(haw: compute))))))),no
+Clay,,3->4,reshape,,2020-11-11,develop,,in(rom: in(dos: map(in(qyx: map(in(for: plunge;add))))));in(hoy: map(in(rus: map(in(qyx: map(in(for: plunge;add)));in(ref: in(bom: map(add;add;add;add)))))))),yes
+Clay,,4->5,discard,,2020-11-11,develop,,remove;add,yes
+Clay,,5->6,none,,2021-03-05,develop,relabelled none: removes pun already emptied by 4->5,remove,yes
+Clay,,6->7,discard,,2021-03-05,develop,,in(rom: in(dos: map(in(dom: remove;add))));in(hoy: map(in(rus: map(in(dom: remove;add))))),yes
+Clay,,7->8,add,,2021-05-19,develop,,add,yes
+Clay,,8->9,discard,,2021-10-04,develop,,in(rom: in(dos: map(in(dom: remove;remove;add))));in(hoy: map(in(rus: map(in(dom: remove;remove;add))))),yes
+Clay,,9->10,add,e,2021-10-04,develop,,add,no
+Clay,,10->11,reshape,j,2022-06-07,develop,,in(rom: in(dos: map(remove;add;in(qyx: map(in(rove: compute)));in(dom: remove;add;add;remove;add))));in(hoy: map(in(rus: map(remove;add;in(qyx: map(in(rove: compute)));in(dom: remove;add;add;remove;add);in(ref: in(bom: map(remove;in(nako: map(map(remove))))))))));in(ran: in(lat: filter;map(remove;hoist)));add;in(mon: map(in(r: remove;add)));remove,no
+Clay,,11->12,add,,2022-06-07,develop,,add,yes
+Clay,,12->13,add,j,2023-01-04,develop,,add,no
+Clay,,13->14,reshape,,2023-04-25,develop,,add;in(hoy: map(in(rus: map(in(ref: in(bom: map(add;in(busy: convert)))))))),yes
+Clay,,14->15,add,j,2024-11-25,develop,,add,no
+Clay,,15->16,re-encode,,2026-04-02,develop,,re-encode,no
+Dojo,,untagged->0,reshape,,2015-09-03,intro,,add;in(hoc: map(add)),yes
+Dojo,,0->1,discard,,2015-09-09,intro,,in(hoc: map(remove;add)),yes
+Dojo,,1->2,discard,,2015-09-11,intro,relabelled discard: arm only resets poy; reshape went into the %0 arm via hotfix a5f5e08d70,in(hoc: map(remove;add)),yes
+Dojo,,2->3,discard,,2015-09-29,intro,,in(hoc: map(remove;add)),yes
+Dojo,,3->4,add,,2015-11-25,intro,,add,yes
+Dojo,,4->5,discard,,2016-11-30,intro,,in(hoc: map(remove;add;remove;add)),yes
+Dojo,,5->6,add,,2020-05-06,intro,,add,yes
+Dojo,,6->7,discard,j,2021-09-23,intro,,in(hoc: map(remove;add)),no
+Dojo,,7->8,discard,j,2021-10-06,intro,replay of 6->7,in(hoc: map(remove;add;in(dir: remove;add))),no
+Dojo,,8->9,reshape,ej,2022-02-20,intro,,in(hoc: filter;compute),no
+Dojo,,9->10,re-encode,j,2025-10-31,intro,,re-encode,no
+Hood,outer,0->1,none,,2016-05-02,intro,,,yes
+Hood,outer,1->2,none,e,2019-12-13,intro,,,no
+Hood,outer,2->3,none,e,2020-02-14,intro,,,no
+Hood,outer,3->4,none,e,2020-04-27,intro,,,no
+Hood,outer,4->5,none,,2020-05-22,intro,,,yes
+Hood,outer,5->6,none,e,2020-06-17,intro,,,no
+Hood,outer,6->7,reshape,,2020-06-17,intro,,container;filter;map(remove),no
+Hood,outer,7->8,none,e,2020-06-24,intro,,,no
+Hood,outer,8->9,none,e,2020-07-28,intro,,,no
+Hood,outer,9->10,none,e,2020-08-19,intro,,,no
+Hood,outer,10->11,none,e,2020-11-02,intro,,,no
+Hood,outer,11->12,none,e,2021-01-19,intro,,,no
+Hood,outer,12->13,none,e,2021-05-18,intro,,,no
+Hood,outer,27->28,none,eo,2025-06-26,intro,,,no
+Hood,outer,28->29,add,,2026-02-19,intro,,add,yes
+Hood,kiln,0->1,discard,ej,2020-07-27,develop,,remove;remove;remove;remove;remove;in(syn: filter);add;compute,no
+Hood,kiln,1->2,add,,2021-07-22,develop,,add,yes
+Hood,kiln,2->3,discard,,2021-10-04,develop,,remove;add,yes
+Hood,kiln,3->4,add,,2021-10-04,develop,,add,yes
+Hood,kiln,4->5,reshape,,2021-10-04,develop,,in(ark: map(add;plunge;plunge;plunge)),yes
+Hood,kiln,5->6,add,,2021-10-04,develop,,add,yes
+Hood,kiln,6->7,reshape,,2021-10-04,develop,,in(ark: map(plunge;in(rail: wrap))),yes
+Hood,kiln,7->8,derive,o,2021-10-04,develop,,compute;read,no
+Hood,kiln,8->9,none,,2021-10-07,develop,,,yes
+Hood,kiln,9->10,discard,ej,2023-01-04,develop,,remove;remove;add;remove;add,no
+Hood,kiln,10->11,add,,2024-01-31,develop,,add,yes
+Hood,drum,0->1,repair,j,2016-05-02,intro,,compute,no
+Hood,drum,1->2,reshape,,2016-10-19,intro,,in(bin: map(in(mir: in(p: compute);in(q: plunge;add;wrap)))),no
+Hood,drum,2/3->4,discard,,2021-10-04,develop,,remove;remove,yes
+Hood,drum,4->5,reshape,,2023-01-12,develop,,remove;in(bin: map(compute;in(fug: map(map(in(blt: in(p: map(convert));in(q: map(convert)))))))),no
+Hood,drum,5->6,add,e,2023-02-24,develop,,add,no
+Hood,helm,0->1,discard,,2020-06-17,intro,,in(hoc: filter;head);hoist;remove,no
+Hood,helm,1->2,none,e,2021-12-17,intro,,,no

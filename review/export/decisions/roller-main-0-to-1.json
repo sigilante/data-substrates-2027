@@ -1,0 +1,12 @@
+{
+  "composable": false,
+  "decision": "approve-B",
+  "flags": "e",
+  "kind": "add",
+  "notes": "",
+  "ops": "add(ship-quota); add(slice); add(quota); add(resend-time); add(update-rate)",
+  "reviewedAt": "2026-11-16T01:56:59.974Z",
+  "step": "0->1",
+  "sub": "",
+  "system": "roller"
+}

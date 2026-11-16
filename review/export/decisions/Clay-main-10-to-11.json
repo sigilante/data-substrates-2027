@@ -1,0 +1,12 @@
+{
+  "composable": false,
+  "decision": "approve-B",
+  "flags": "j",
+  "kind": "reshape",
+  "notes": "",
+  "ops": "in(ran: in(lat: filter, map(compute))); in(dos: map(remove;add(fiz), in(qyx: map(compute)), in(dom: remove(ank), add(tom), add(nor), remove;add(fod)))); in(hoy: map(in(rus: map(same, in(ref: in(bom: map(remove(have), in(nako: map(in(bar: remove;add)))))))))); add(fad); in(mon: map(compute)); remove(dist-upgraded)",
+  "reviewedAt": "2026-11-16T01:44:02.510Z",
+  "step": "10->11",
+  "sub": "",
+  "system": "Clay"
+}

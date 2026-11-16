@@ -1,0 +1,12 @@
+{
+  "composable": false,
+  "decision": "approve-B",
+  "flags": "j",
+  "kind": "repair",
+  "notes": "",
+  "ops": "remove;add(outstanding)",
+  "reviewedAt": "2026-11-16T01:46:33.971Z",
+  "step": "3->4",
+  "sub": "",
+  "system": "Gall"
+}

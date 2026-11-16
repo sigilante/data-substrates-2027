@@ -1,0 +1,12 @@
+{
+  "composable": false,
+  "decision": "approve-B",
+  "flags": "j",
+  "kind": "re-encode",
+  "notes": "",
+  "ops": "in(hoc: map(remove;add(poy), in(var: map(re-encode))))",
+  "reviewedAt": "2026-11-16T01:41:38.322Z",
+  "step": "9->10",
+  "sub": "",
+  "system": "Dojo"
+}

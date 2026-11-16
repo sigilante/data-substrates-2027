@@ -1,0 +1,12 @@
+{
+  "composable": false,
+  "decision": "approve-A",
+  "flags": "e",
+  "kind": "reshape",
+  "notes": "",
+  "ops": "in(sessions: map(in(key: convert)); filter)",
+  "reviewedAt": "2026-11-16T01:34:36.581Z",
+  "step": "3->4",
+  "sub": "",
+  "system": "chat-cli"
+}

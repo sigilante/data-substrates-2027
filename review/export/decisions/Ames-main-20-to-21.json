@@ -1,0 +1,12 @@
+{
+  "composable": false,
+  "decision": "approve-A",
+  "flags": "j",
+  "kind": "discard",
+  "notes": "",
+  "ops": "in(peers: map(remove))",
+  "reviewedAt": "2026-11-16T01:39:02.952Z",
+  "step": "20->21",
+  "sub": "",
+  "system": "Ames"
+}

@@ -1,0 +1,12 @@
+{
+  "composable": true,
+  "decision": "approve-B",
+  "flags": "",
+  "kind": "discard",
+  "notes": "",
+  "ops": "remove(ray); remove(fur)",
+  "reviewedAt": "2026-11-16T01:55:10.632Z",
+  "step": "2/3->4",
+  "sub": "drum",
+  "system": "Hood"
+}

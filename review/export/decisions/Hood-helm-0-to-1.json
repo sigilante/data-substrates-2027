@@ -1,0 +1,12 @@
+{
+  "composable": false,
+  "decision": "approve-B",
+  "flags": "j",
+  "kind": "reshape",
+  "notes": "",
+  "ops": "in(hoc: head, hoist(mass-timer)); remove(hoc)",
+  "reviewedAt": "2026-11-16T01:46:02.987Z",
+  "step": "0->1",
+  "sub": "helm",
+  "system": "Hood"
+}

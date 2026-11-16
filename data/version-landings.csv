@@ -1,0 +1,111 @@
+component,version,date,commit,source
+ames,1,2019-12-12,9ba4505086,first-parent; present at first sight
+ames,2,2019-12-12,9ba4505086,first-parent; present at first sight
+ames,3,2019-12-12,9ba4505086,first-parent; present at first sight
+ames,4,2020-07-27,e0c3ce08c8,first-parent landing
+ames,5,2021-03-05,6cecfaf430,first-parent landing
+ames,6,2022-06-07,39ac7cb820,first-parent landing
+ames,7,2022-11-15,618fc0fe5a,first-parent landing
+ames,8,2022-11-15,618fc0fe5a,first-parent landing
+ames,9,2023-01-17,e262ab4ebc,first-parent landing
+ames,10,2023-02-01,fa451613ec,first-parent landing
+ames,11,2023-02-13,9631e5c5ec,first-parent landing
+ames,12,2023-03-17,875679338b,first-parent landing
+ames,13,2023-04-25,9b636eb188,first-parent landing
+ames,14,2023-05-02,51e85291c1,first-parent landing
+ames,15,2023-06-20,ea1755bc32,first-parent landing
+ames,16,2023-08-17,95d754a943,first-parent landing
+ames,17,2023-08-29,e21f346ca8,first-parent landing
+ames,18,2023-11-07,410f491938,first-parent landing
+ames,19,2024-01-31,732ed03e40,first-parent landing
+ames,20,2024-03-20,9f9644cbb1,first-parent landing
+ames,21,2024-04-21,880655b8f5,first-parent landing
+ames,22,2024-11-05,7245ae1148,first-parent landing
+ames,23,2024-11-25,ac87d8bbb3,first-parent landing
+ames,24,2025-02-27,177dc69fb9,first-parent landing
+ames,25,2025-03-18,cec4fa73c1,first-parent landing
+ames,26,2025-08-05,e5485be203,first-parent landing
+ames,27,2025-08-13,2239272006,first-parent landing
+ames,28,2025-11-04,d1d7e29932,first-parent landing
+ames,29,2025-12-02,c037b77cb9,first-parent landing
+ames,30,2026-04-02,42dc6036b1,first-parent landing
+ames,31,2026-04-10,a6a5c05e67,first-parent landing
+gall,0,2019-10-25,7f124db8d9,first-parent; present at first sight
+gall,1,2019-10-25,7f124db8d9,first-parent; present at first sight
+gall,2,2019-12-05,4d71c1150c,all-branch first appearance of state-N mold (pre-tag idiom)
+gall,3,2020-02-10,df970ed417,all-branch first appearance of state-N mold (pre-tag idiom)
+gall,4,2020-04-21,9b0cb85a02,all-branch first appearance of state-N mold (pre-tag idiom)
+gall,5,2020-04-22,3beb6ee65b,all-branch first appearance of state-N mold (pre-tag idiom)
+gall,6,2020-04-24,22aa98e717,all-branch first appearance of state-N mold (pre-tag idiom)
+gall,7,2020-08-26,bc929ba6db,all-branch first appearance of state-N mold (pre-tag idiom)
+gall,8,2021-10-04,3ce1c00105,first-parent landing
+gall,9,2022-11-15,618fc0fe5a,first-parent landing
+gall,10,2022-11-15,618fc0fe5a,first-parent landing
+gall,11,2023-01-04,d5bf903f56,first-parent landing
+gall,12,2023-04-25,9b636eb188,first-parent landing
+gall,13,2023-05-01,c3d461d6de,first-parent landing
+gall,14,2023-08-29,e21f346ca8,first-parent landing
+gall,15,2023-10-09,a667d85b8a,first-parent landing
+gall,16,2024-01-31,732ed03e40,first-parent landing
+gall,17,2025-06-16,45987e6473,first-parent landing
+gall,18,2025-11-04,d1d7e29932,first-parent landing
+gall,19,2025-12-18,9c91144b18,first-parent landing
+gall,20,2026-04-02,42dc6036b1,first-parent landing (first merged ce034cf1fd 2026-01-20; reverted b4519ffa78 5 min later)
+clay,1,2019-07-22,7ce50ad75e,first-parent; present at first sight
+clay,2,2019-10-25,7f124db8d9,first-parent landing
+clay,3,2020-07-27,e0c3ce08c8,first-parent landing
+clay,4,2020-11-11,bac545e23c,first-parent landing
+clay,5,2020-11-11,bac545e23c,first-parent landing
+clay,6,2021-03-05,6cecfaf430,first-parent landing
+clay,7,2021-03-05,6cecfaf430,first-parent landing
+clay,8,2021-05-19,c4a65eb65f,first-parent landing
+clay,9,2021-10-04,3ce1c00105,first-parent landing
+clay,10,2021-10-04,3ce1c00105,first-parent landing
+clay,11,2022-06-07,39ac7cb820,first-parent landing
+clay,12,2022-06-07,39ac7cb820,first-parent landing
+clay,13,2023-01-04,d5bf903f56,first-parent landing
+clay,14,2023-04-25,9b636eb188,first-parent landing
+clay,15,2024-11-25,ac87d8bbb3,first-parent landing
+clay,16,2026-04-02,42dc6036b1,first-parent landing (first merged ce034cf1fd 2026-01-20; reverted b4519ffa78 5 min later)
+kiln,0,2020-07-27,e0c3ce08c8,first-parent; present at first sight
+kiln,1,2020-07-27,e0c3ce08c8,first-parent; present at first sight
+kiln,2,2021-07-22,8f27e2ae53,first-parent landing
+kiln,3,2021-10-04,3ce1c00105,first-parent landing
+kiln,4,2021-10-04,3ce1c00105,first-parent landing
+kiln,5,2021-10-04,3ce1c00105,first-parent landing
+kiln,6,2021-10-04,3ce1c00105,first-parent landing
+kiln,7,2021-10-04,3ce1c00105,first-parent landing
+kiln,8,2021-10-04,3ce1c00105,first-parent landing
+kiln,9,2021-10-07,9d36e58e21,first-parent landing
+kiln,10,2023-01-04,d5bf903f56,first-parent landing
+kiln,11,2024-01-31,732ed03e40,first-parent landing
+dojo,5,2021-10-04,3ce1c00105,first-parent; present at first sight
+dojo,6,2021-10-04,3ce1c00105,first-parent; present at first sight
+dojo,7,2021-10-04,3ce1c00105,first-parent; present at first sight
+dojo,8,2021-10-06,d4060f2b30,first-parent landing
+dojo,9,2023-01-12,0119eef28d,first-parent landing
+dojo,10,2026-04-02,42dc6036b1,first-parent landing (first merged ce034cf1fd 2026-01-20; reverted b4519ffa78 5 min later)
+drum,2,2021-10-04,3ce1c00105,first-parent; present at first sight
+drum,3,2021-10-04,3ce1c00105,first-parent; present at first sight
+drum,4,2021-10-04,3ce1c00105,first-parent; present at first sight
+drum,5,2023-01-12,0119eef28d,first-parent landing
+drum,6,2023-02-24,dae436aa94,first-parent landing
+hood,7,2020-06-16,01eee03340,"all-branch intro (subagent); 18-21 undated, 25 date approx"
+hood,8,2020-06-24,47352a06ba,"all-branch intro (subagent); 18-21 undated, 25 date approx"
+hood,9,2020-07-28,7c3d608185,"all-branch intro (subagent); 18-21 undated, 25 date approx"
+hood,10,2020-08-19,a4e21da3f0,"all-branch intro (subagent); 18-21 undated, 25 date approx"
+hood,11,2020-11-02,1b8af7d78c,"all-branch intro (subagent); 18-21 undated, 25 date approx"
+hood,12,2021-01-19,7ffce92c37,"all-branch intro (subagent); 18-21 undated, 25 date approx"
+hood,13,2021-05-18,65c35bb50b,"all-branch intro (subagent); 18-21 undated, 25 date approx"
+hood,14,2021-06-18,87ca57c364,"all-branch intro (subagent); 18-21 undated, 25 date approx"
+hood,15,2021-06-30,784004cfb6,"all-branch intro (subagent); 18-21 undated, 25 date approx"
+hood,16,2021-07-16,ea386065d1,"all-branch intro (subagent); 18-21 undated, 25 date approx"
+hood,17,2021-08-20,4dfc09d1a4,"all-branch intro (subagent); 18-21 undated, 25 date approx"
+hood,22,2021-10-07,8ed93c27c4,"all-branch intro (subagent); 18-21 undated, 25 date approx"
+hood,23,2021-12-17,970075bbcd,"all-branch intro (subagent); 18-21 undated, 25 date approx"
+hood,24,2022-09-01,8884e7dfbc,"all-branch intro (subagent); 18-21 undated, 25 date approx"
+hood,25,2023-01-15,0119eef28d,"all-branch intro (subagent); 18-21 undated, 25 date approx"
+hood,26,2023-02-21,707249beb9,"all-branch intro (subagent); 18-21 undated, 25 date approx"
+hood,27,2023-08-07,4440eaced6,"all-branch intro (subagent); 18-21 undated, 25 date approx"
+hood,28,2025-06-26,2e654a67f4,"all-branch intro (subagent); 18-21 undated, 25 date approx"
+hood,29,2026-02-19,d08c6c0b9f,"all-branch intro (subagent); 18-21 undated, 25 date approx"

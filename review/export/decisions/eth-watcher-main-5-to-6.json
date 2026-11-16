@@ -1,0 +1,12 @@
+{
+  "composable": false,
+  "decision": "approve-B",
+  "flags": "",
+  "kind": "add",
+  "notes": "",
+  "ops": "in(dogs: map(in(config: add(to)), in(running: map(in(since: compute)))))",
+  "reviewedAt": "2026-11-16T01:55:57.665Z",
+  "step": "5->6",
+  "sub": "",
+  "system": "eth-watcher"
+}

@@ -1,0 +1,12 @@
+{
+  "composable": false,
+  "decision": "approve-B",
+  "flags": "ej",
+  "kind": "reshape",
+  "notes": "",
+  "ops": "in(hoc: filter, map-keys(compute))",
+  "reviewedAt": "2026-11-16T01:41:30.255Z",
+  "step": "8->9",
+  "sub": "",
+  "system": "Dojo"
+}

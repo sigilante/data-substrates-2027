@@ -1,0 +1,12 @@
+{
+  "composable": true,
+  "decision": "approve-A",
+  "flags": "",
+  "kind": "discard",
+  "notes": "",
+  "ops": "in(grams: remove;add); in(known: map(add in-group)); in(bound: map(add in-group)); in(binds: map(map(add in-group))); in(audience: map(add in-group))",
+  "reviewedAt": "2026-11-16T01:34:49.092Z",
+  "step": "0->1",
+  "sub": "",
+  "system": "chat-cli"
+}

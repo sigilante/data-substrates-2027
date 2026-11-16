@@ -1,0 +1,12 @@
+{
+  "composable": false,
+  "decision": "approve-B",
+  "flags": "j",
+  "kind": "derive",
+  "notes": "",
+  "ops": "add(sys); compute",
+  "reviewedAt": "2026-11-16T01:45:54.051Z",
+  "step": "0->1",
+  "sub": "drum",
+  "system": "Hood"
+}

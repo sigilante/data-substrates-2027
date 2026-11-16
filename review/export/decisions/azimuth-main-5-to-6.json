@@ -1,0 +1,12 @@
+{
+  "composable": true,
+  "decision": "approve-A",
+  "flags": "",
+  "kind": "add",
+  "notes": "",
+  "ops": "add refresh",
+  "reviewedAt": "2026-11-16T01:34:41.560Z",
+  "step": "5->6",
+  "sub": "",
+  "system": "azimuth"
+}

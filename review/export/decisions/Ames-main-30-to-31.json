@@ -1,0 +1,12 @@
+{
+  "composable": false,
+  "decision": "approve-B",
+  "flags": "j",
+  "kind": "discard",
+  "notes": "",
+  "ops": "in(chums: map(remove(weir))); in(core: convert)",
+  "reviewedAt": "2026-11-16T01:42:05.036Z",
+  "step": "30->31",
+  "sub": "",
+  "system": "Ames"
+}

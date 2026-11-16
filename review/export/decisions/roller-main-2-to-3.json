@@ -1,0 +1,12 @@
+{
+  "composable": false,
+  "decision": "approve-B",
+  "flags": "",
+  "kind": "derive",
+  "notes": "",
+  "ops": "add(allowances); add(next-slice: compute)",
+  "reviewedAt": "2026-11-16T01:57:04.260Z",
+  "step": "2->3",
+  "sub": "",
+  "system": "roller"
+}

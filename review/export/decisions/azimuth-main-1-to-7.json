@@ -1,0 +1,12 @@
+{
+  "composable": false,
+  "decision": "approve-B",
+  "flags": "e",
+  "kind": "derive",
+  "notes": "",
+  "ops": "add(refresh); add(sap); in(nas: compute); in(own: compute); in(spo: compute)",
+  "reviewedAt": "2026-11-16T01:38:22.562Z",
+  "step": "1->7",
+  "sub": "",
+  "system": "azimuth"
+}

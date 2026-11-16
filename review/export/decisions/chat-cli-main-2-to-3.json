@@ -1,0 +1,12 @@
+{
+  "composable": false,
+  "decision": "approve-B",
+  "flags": "ej",
+  "kind": "reshape",
+  "notes": "",
+  "ops": "remove(grams); remove(known); remove(count); add(sessions: compute); in(bound: map(in(target: remove(in-group), in(path: head), rename(path, name)))); in(binds: map(map(remove(in-group), in(path: head), rename(path, name)))); remove(audience)",
+  "reviewedAt": "2026-11-16T01:46:10.291Z",
+  "step": "2->3",
+  "sub": "",
+  "system": "chat-cli"
+}

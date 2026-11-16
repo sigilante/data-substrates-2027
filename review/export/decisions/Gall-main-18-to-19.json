@@ -1,0 +1,12 @@
+{
+  "composable": false,
+  "decision": "approve-B",
+  "flags": "",
+  "kind": "repair",
+  "notes": "",
+  "ops": "in(blocked: map(map(in(duct: compute))))",
+  "reviewedAt": "2026-11-16T01:43:05.367Z",
+  "step": "18->19",
+  "sub": "",
+  "system": "Gall"
+}

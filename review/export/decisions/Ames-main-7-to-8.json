@@ -1,0 +1,12 @@
+{
+  "composable": false,
+  "decision": "approve-B",
+  "flags": "e",
+  "kind": "add",
+  "notes": "",
+  "ops": "add(corks)",
+  "reviewedAt": "2026-11-16T01:42:41.055Z",
+  "step": "7->8",
+  "sub": "",
+  "system": "Ames"
+}

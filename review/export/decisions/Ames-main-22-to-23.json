@@ -1,0 +1,12 @@
+{
+  "composable": false,
+  "decision": "approve-B",
+  "flags": "e",
+  "kind": "reshape",
+  "notes": "",
+  "ops": "in(crypto-core: hoist(priv)); remove(crypto-core); rename(chain->server-chain); in(dead: add(chum)); add(chums); add(core)",
+  "reviewedAt": "2026-11-16T01:42:10.677Z",
+  "step": "22->23",
+  "sub": "",
+  "system": "Ames"
+}

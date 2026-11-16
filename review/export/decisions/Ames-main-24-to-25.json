@@ -1,0 +1,12 @@
+{
+  "composable": true,
+  "decision": "approve-B",
+  "flags": "",
+  "kind": "add",
+  "notes": "",
+  "ops": "in(chums: map(in(lane: add(hop))))",
+  "reviewedAt": "2026-11-16T01:45:01.163Z",
+  "step": "24->25",
+  "sub": "",
+  "system": "Ames"
+}

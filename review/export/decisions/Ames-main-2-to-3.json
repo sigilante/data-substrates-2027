@@ -1,0 +1,12 @@
+{
+  "composable": true,
+  "decision": "approve-B",
+  "flags": "",
+  "kind": "reshape",
+  "notes": "",
+  "ops": "plunge(veb); rename(bug); in(bug: add(ships))",
+  "reviewedAt": "2026-11-16T01:42:49.617Z",
+  "step": "2->3",
+  "sub": "",
+  "system": "Ames"
+}

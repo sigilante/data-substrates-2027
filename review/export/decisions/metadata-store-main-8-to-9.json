@@ -1,0 +1,12 @@
+{
+  "composable": true,
+  "decision": "approve-B",
+  "flags": "",
+  "kind": "none",
+  "notes": "",
+  "ops": "",
+  "reviewedAt": "2026-11-16T01:55:27.508Z",
+  "step": "8->9",
+  "sub": "",
+  "system": "metadata-store"
+}

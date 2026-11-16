@@ -1,0 +1,12 @@
+{
+  "composable": false,
+  "decision": "approve-B",
+  "flags": "ej",
+  "kind": "reshape",
+  "notes": "",
+  "ops": "remove(wipe-eyre-subs); in(eggs: map(in(old-state: convert)))",
+  "reviewedAt": "2026-11-16T01:44:40.696Z",
+  "step": "7->8",
+  "sub": "",
+  "system": "Gall"
+}

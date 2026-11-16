@@ -1,0 +1,12 @@
+{
+  "composable": false,
+  "decision": "approve-A",
+  "flags": "e",
+  "kind": "none",
+  "notes": "",
+  "ops": "",
+  "reviewedAt": "2026-11-16T01:55:46.515Z",
+  "step": "1->2",
+  "sub": "",
+  "system": "eth-watcher"
+}

@@ -1,0 +1,12 @@
+{
+  "composable": false,
+  "decision": "approve-B",
+  "flags": "eo",
+  "kind": "add",
+  "notes": "",
+  "ops": "in(cong: wrap); add(dead); in(dead: in(cork: compute)); in(peers: map(in(snd: map(in(metrics: remove(num-live)))), in(keens: map(in(metrics: remove(num-live)))), in(rcv: map(in(nax: filter)))))",
+  "reviewedAt": "2026-11-16T01:44:58.466Z",
+  "step": "16->17",
+  "sub": "",
+  "system": "Ames"
+}

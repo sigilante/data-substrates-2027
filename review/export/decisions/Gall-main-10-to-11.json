@@ -1,0 +1,12 @@
+{
+  "composable": true,
+  "decision": "approve-B",
+  "flags": "",
+  "kind": "reshape",
+  "notes": "",
+  "ops": "in(eggs: map(remove(live), add(code), in(old-state: convert)))",
+  "reviewedAt": "2026-11-16T01:43:21.830Z",
+  "step": "10->11",
+  "sub": "",
+  "system": "Gall"
+}

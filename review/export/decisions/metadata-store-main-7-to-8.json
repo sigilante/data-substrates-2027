@@ -1,0 +1,12 @@
+{
+  "composable": false,
+  "decision": "approve-B",
+  "flags": "",
+  "kind": "reshape",
+  "notes": "",
+  "ops": "in(associations: map(in(metadatum: remove(module), add(config: compute), add(hidden), remove(picture), add(picture), remove(vip), add(vip))))",
+  "reviewedAt": "2026-11-16T01:46:08.191Z",
+  "step": "7->8",
+  "sub": "",
+  "system": "metadata-store"
+}

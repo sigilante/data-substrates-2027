@@ -1,0 +1,12 @@
+{
+  "composable": true,
+  "decision": "approve-B",
+  "flags": "",
+  "kind": "add",
+  "notes": "",
+  "ops": "in(peers: map(in(tip: add(halt)))); in(chums: map(in(flows: map(add(halt)))))",
+  "reviewedAt": "2026-11-16T01:42:00.182Z",
+  "step": "27->28",
+  "sub": "",
+  "system": "Ames"
+}

@@ -1,0 +1,12 @@
+{
+  "composable": false,
+  "decision": "approve-A",
+  "flags": "e",
+  "kind": "none",
+  "notes": "",
+  "ops": "",
+  "reviewedAt": "2026-11-16T01:53:53.157Z",
+  "step": "9->10",
+  "sub": "outer",
+  "system": "Hood"
+}

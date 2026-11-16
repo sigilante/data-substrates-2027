@@ -1,0 +1,12 @@
+{
+  "composable": false,
+  "decision": "approve-B",
+  "flags": "j",
+  "kind": "add",
+  "notes": "",
+  "ops": "in(dos: map(in(dom: add(liv), add(ren)))); in(hoy: map(in(rus: map(in(dom: add(liv), add(ren)))))); add(tyr); add(tur); in(dos: in(base: in(dom: in(liv: convert))))",
+  "reviewedAt": "2026-11-16T01:44:06.158Z",
+  "step": "12->13",
+  "sub": "",
+  "system": "Clay"
+}

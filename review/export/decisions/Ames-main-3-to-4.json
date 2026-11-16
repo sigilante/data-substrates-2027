@@ -1,0 +1,12 @@
+{
+  "composable": false,
+  "decision": "approve-A",
+  "flags": "j",
+  "kind": "discard",
+  "notes": "",
+  "ops": "in(events: filter)",
+  "reviewedAt": "2026-11-16T01:39:12.420Z",
+  "step": "3->4",
+  "sub": "",
+  "system": "Ames"
+}

@@ -1,0 +1,12 @@
+{
+  "composable": true,
+  "decision": "approve-B",
+  "flags": "",
+  "kind": "add",
+  "notes": "",
+  "ops": "in(eggs: map(in(%live: add(ken))))",
+  "reviewedAt": "2026-11-16T01:43:17.438Z",
+  "step": "12->13",
+  "sub": "",
+  "system": "Gall"
+}

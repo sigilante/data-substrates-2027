@@ -1,0 +1,12 @@
+{
+  "composable": false,
+  "decision": "approve-B",
+  "flags": "ej",
+  "kind": "repair",
+  "notes": "",
+  "ops": "add(wipe-eyre-subs); in(eggs: map(in(watches: in(inbound: filter))))",
+  "reviewedAt": "2026-11-16T01:44:37.579Z",
+  "step": "6->7",
+  "sub": "",
+  "system": "Gall"
+}

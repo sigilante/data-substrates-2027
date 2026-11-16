@@ -1,0 +1,12 @@
+{
+  "composable": false,
+  "decision": "approve-A",
+  "flags": "ej",
+  "kind": "discard",
+  "notes": "",
+  "ops": "in(nas: remove;add); in(own: remove;add); in(spo: remove;add); in(logs: remove;add); in(url: convert)",
+  "reviewedAt": "2026-11-16T01:34:43.897Z",
+  "step": "2->3",
+  "sub": "",
+  "system": "azimuth"
+}

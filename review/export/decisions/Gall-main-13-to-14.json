@@ -1,0 +1,12 @@
+{
+  "composable": true,
+  "decision": "approve-B",
+  "flags": "",
+  "kind": "reshape",
+  "notes": "",
+  "ops": "in(blocked: map(map(in(routes: in(attributing: plunge(ship), add(path))))))",
+  "reviewedAt": "2026-11-16T01:44:46.650Z",
+  "step": "13->14",
+  "sub": "",
+  "system": "Gall"
+}

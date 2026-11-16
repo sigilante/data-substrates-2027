@@ -1,0 +1,12 @@
+{
+  "composable": true,
+  "decision": "approve-B",
+  "flags": "",
+  "kind": "reshape",
+  "notes": "",
+  "ops": "in(graphs: map(in(graph: map(in(post: wrap(%&)))))); in(archive: same); remove(tag-queries); add(tag-queries); remove(validators); in(update-logs: map(remove; add))",
+  "reviewedAt": "2026-11-16T01:46:23.707Z",
+  "step": "3->4",
+  "sub": "",
+  "system": "graph-store"
+}

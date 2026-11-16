@@ -1,0 +1,12 @@
+{
+  "composable": false,
+  "decision": "approve-A",
+  "flags": "j",
+  "kind": "discard",
+  "notes": "",
+  "ops": "in(blocked: map(filter;map(in(duct: compute))))",
+  "reviewedAt": "2026-11-16T01:39:52.707Z",
+  "step": "16->17",
+  "sub": "",
+  "system": "Gall"
+}

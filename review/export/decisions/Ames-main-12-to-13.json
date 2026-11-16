@@ -1,0 +1,12 @@
+{
+  "composable": false,
+  "decision": "approve-B",
+  "flags": "o",
+  "kind": "derive",
+  "notes": "",
+  "ops": "add(rift); read; in(crypto-core: compute); in(bug: in(veb: add)); in(peers: map(add(keens)))",
+  "reviewedAt": "2026-11-16T01:44:51.191Z",
+  "step": "12->13",
+  "sub": "",
+  "system": "Ames"
+}

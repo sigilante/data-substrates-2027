@@ -1,0 +1,12 @@
+{
+  "composable": false,
+  "decision": "approve-A",
+  "flags": "",
+  "kind": "reshape",
+  "notes": "",
+  "ops": "in(peers: map(in(keens: map(in(wan: container)))))",
+  "reviewedAt": "2026-11-16T01:40:24.749Z",
+  "step": "13->14",
+  "sub": "",
+  "system": "Ames"
+}

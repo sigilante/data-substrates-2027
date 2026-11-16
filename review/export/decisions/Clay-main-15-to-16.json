@@ -1,0 +1,12 @@
+{
+  "composable": false,
+  "decision": "approve-B",
+  "flags": "",
+  "kind": "re-encode",
+  "notes": "",
+  "ops": "in(dos: map(in(qyx: re-encode), in(dom: remove(fod)))); in(hoy: map(in(rus: map(in(ref: re-encode), in(qyx: re-encode), in(dom: remove(fod)))))); remove(fad)",
+  "reviewedAt": "2026-11-16T01:41:10.133Z",
+  "step": "15->16",
+  "sub": "",
+  "system": "Clay"
+}

@@ -1,0 +1,12 @@
+{
+  "composable": false,
+  "decision": "approve-A",
+  "flags": "j",
+  "kind": "reshape",
+  "notes": "",
+  "ops": "map(in(md-resource: in(app-name: convert); in(path: compute)); in(module: convert)); map(in(group: convert)); filter; map(in(md-resource: in(path: convert); in(app-name: convert))); map(in(metadata: add preview))",
+  "reviewedAt": "2026-11-16T01:38:31.032Z",
+  "step": "6->7",
+  "sub": "",
+  "system": "metadata-store"
+}

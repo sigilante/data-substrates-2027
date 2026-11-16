@@ -1,0 +1,12 @@
+{
+  "composable": true,
+  "decision": "approve-B",
+  "flags": "",
+  "kind": "discard",
+  "notes": "",
+  "ops": "remove(state)",
+  "reviewedAt": "2026-11-16T01:46:20.508Z",
+  "step": "0/1->(reject)",
+  "sub": "",
+  "system": "graph-store"
+}

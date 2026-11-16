@@ -1,0 +1,12 @@
+{
+  "composable": true,
+  "decision": "approve-B",
+  "flags": "",
+  "kind": "add",
+  "notes": "",
+  "ops": "add(bad)",
+  "reviewedAt": "2026-11-16T01:42:57.517Z",
+  "step": "furt0->fort1",
+  "sub": "old",
+  "system": "Ames"
+}

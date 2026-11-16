@@ -1,0 +1,12 @@
+{
+  "composable": true,
+  "decision": "approve-A",
+  "flags": "",
+  "kind": "add",
+  "notes": "",
+  "ops": "add sap",
+  "reviewedAt": "2026-11-16T01:34:34.001Z",
+  "step": "6->7",
+  "sub": "",
+  "system": "azimuth"
+}

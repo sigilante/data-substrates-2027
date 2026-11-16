@@ -1,0 +1,12 @@
+{
+  "composable": false,
+  "decision": "approve-A",
+  "flags": "ejo",
+  "kind": "discard",
+  "notes": "",
+  "ops": "in(archive: remove;add); in(graphs: filter); in(update-logs: filter); map(in(graph: map(in(post: in(signatures: remove;add))))); map(in(update-log: map(in(signatures: remove;add))))",
+  "reviewedAt": "2026-11-16T01:34:20.868Z",
+  "step": "6->7",
+  "sub": "",
+  "system": "graph-store"
+}

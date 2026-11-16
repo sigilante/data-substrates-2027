@@ -1,0 +1,39 @@
+system,sub,step,date,date_kind,kind,flags,ops,lens,decision,notes,agent_kind,agent_flags,agent_ops
+metadata-store,,0-4->8,2021-02-12,develop,discard,j,remove(state); add(state),no,approve-B,,discard,j,remove;add
+metadata-store,,5->6,2020-11-25,develop,reshape,,"in(associations: map(in(md-resource: in(app-name: convert), in(path: plunge(ship))), in(metadatum: in(module: convert))))",yes,approve-B,,reshape,,map(in(md-resource: in(app-name: convert); in(path: compute)); in(metadata: in(module: convert)))
+metadata-store,,6->7,2021-02-12,develop,reshape,j,map(in(md-resource: in(app-name: convert); in(path: compute)); in(module: convert)); map(in(group: convert)); filter; map(in(md-resource: in(path: convert); in(app-name: convert))); map(in(metadata: add preview)),no,approve-A,,reshape,j,map(in(md-resource: in(app-name: convert); in(path: compute)); in(module: convert)); map(in(group: convert)); filter; map(in(md-resource: in(path: convert); in(app-name: convert))); map(in(metadata: add preview))
+metadata-store,,7->8,2021-04-02,develop,reshape,,"in(associations: map(in(metadatum: remove(module), add(config: compute), add(hidden), remove(picture), add(picture), remove(vip), add(vip))))",no,approve-B,,reshape,,map(in(metadatum: rename module->config; convert; add hidden))
+metadata-store,,8->9,2021-04-20,develop,none,,,yes,approve-B,,none,,
+metadata-store,,9->10,2021-04-20,develop,none,ej,,no,approve-B,,none,e,
+metadata-store,,10->11,2021-06-01,develop,repair,j,in(associations: map(in(metadatum: in(hidden: compute)))),no,approve-B,,repair,j,map(in(metadatum: in(hidden: compute)))
+metadata-store,,11->12,2021-07-12,develop,repair,j,in(associations: map(in(metadatum: in(hidden: compute)))),no,approve-B,,repair,j,map(in(metadatum: in(hidden: convert)))
+eth-watcher,,0->1,2019-12-04,develop,add,,in(dogs: map(in(config: add(refresh-rate)))),yes,approve-B,,add,,map(in(config: add refresh-rate))
+eth-watcher,,1->2,2019-12-04,develop,none,e,,no,approve-A,,none,e,
+eth-watcher,,2->3,2019-12-18,develop,add,,in(dogs: map(in(config: add(eager)))),yes,approve-B,,add,,map(in(config: add eager))
+eth-watcher,,3->4,2020-04-03,develop,derive,,"in(dogs: map(in(config: add(timeout-time: compute)), in(running: map(add(since: compute)))))",no,approve-B,,derive,,map(in(config: add timeout-time; compute)); map(in(running: map(wrap; add since; compute)))
+eth-watcher,,4->5,2021-11-19,develop,add,,"in(dogs: map(in(config: add(batchers)), in(pending-logs: map(map(in(mined: map(add(input)))))), in(history: map(map(in(mined: map(add(input))))))))",yes,approve-B,,add,,map(in(config: add batchers)); map(in(pending-logs: map(map(in(mined: map(add input)))))); map(in(history: map(map(in(mined: map(add input))))))
+eth-watcher,,5->6,2022-04-06,intro,add,,"in(dogs: map(in(config: add(to)), in(running: map(in(since: compute)))))",no,approve-B,,add,,map(in(config: add to-block)); map(in(running: map(in(since: compute))))
+eth-watcher,,6->7,2025-03-31,develop,repair,ej,in(dogs: map(in(number: compute))),no,approve-B,,repair,"e,j",map(in(number: compute))
+roller,,0->1,2021-11-19,develop,add,e,add(ship-quota); add(slice); add(quota); add(resend-time); add(update-rate),no,approve-B,,add,e,add ship-quota; add slice; add quota; add resend-time; add update-rate
+roller,,1->2,2021-11-19,develop,add,,add(spo),yes,approve-B,,add,,add spo
+roller,,2->3,2022-01-12,develop,derive,,add(allowances); add(next-slice: compute),no,approve-B,,derive,,add allowances; add next-slice; compute
+roller,,3->4,2022-01-12,develop,add,,add(fallback-gas-price),yes,approve-B,,add,,add fallback-gas-price
+roller,,4->5,2022-02-11,intro,add,,in(sending: map(in(txs: map(add(force))))),yes,approve-B,,add,,map(in(send-tx: in(txs: map(add force))))
+roller,,5->6,2022-02-12,intro,derive,,in(sending: map(in(txs: map(add(address: compute))))),no,approve-B,,derive,,map(in(send-tx: in(txs: map(add address; compute))))
+chat-cli,,0->1,2020-03-11,develop,discard,,in(grams: remove;add); in(known: map(add in-group)); in(bound: map(add in-group)); in(binds: map(map(add in-group))); in(audience: map(add in-group)),yes,approve-A,,discard,,in(grams: remove;add); in(known: map(add in-group)); in(bound: map(add in-group)); in(binds: map(map(add in-group))); in(audience: map(add in-group))
+chat-cli,,1->2,2020-05-15,intro,discard,,remove cli; remove eny,yes,approve-A,,discard,,remove cli; remove eny
+chat-cli,,2->3,2020-12-11,develop,reshape,ej,"remove(grams); remove(known); remove(count); add(sessions: compute); in(bound: map(in(target: remove(in-group), in(path: head), rename(path, name)))); in(binds: map(map(remove(in-group), in(path: head), rename(path, name)))); remove(audience)",no,approve-B,,discard,"e,j",remove grams; remove known; remove count; add sessions; plunge(audience); head; in(bound: map(in(key: compute))); in(binds: map(map(compute)))
+chat-cli,,3->4,2023-01-12,develop,reshape,e,in(sessions: map(in(key: convert)); filter),no,approve-A,,reshape,e,in(sessions: map(in(key: convert)); filter)
+azimuth,,0->1,2021-11-19,develop,add,,add spo,yes,approve-A,,add,,add spo
+azimuth,,1->7,2021-11-19,develop,derive,e,add(refresh); add(sap); in(nas: compute); in(own: compute); in(spo: compute),no,approve-B,,derive,,compute nas; compute own; compute spo; add refresh; add sap
+azimuth,,2->3,2022-01-12,develop,discard,ej,in(nas: remove;add); in(own: remove;add); in(spo: remove;add); in(logs: remove;add); in(url: convert),no,approve-A,,discard,"e,j",in(nas: remove;add); in(own: remove;add); in(spo: remove;add); in(logs: remove;add); in(url: convert)
+azimuth,,3->4,2022-01-12,develop,none,e,,no,approve-A,,none,e,
+azimuth,,4->5,2022-01-19,develop,repair,j,remove(nas); add(nas); remove(own); add(own); remove(spo); add(spo); remove(logs); add(logs),no,approve-B,,discard,j,in(nas: remove;add); in(own: remove;add); in(spo: remove;add); in(logs: remove;add)
+azimuth,,5->6,2022-03-30,intro,add,,add refresh,yes,approve-A,,add,,add refresh
+azimuth,,6->7,2022-11-15,develop,add,,add sap,yes,approve-A,,add,,add sap
+graph-store,,0/1->(reject),2021-06-09,develop,discard,,remove(state),yes,approve-B,,discard,j,remove;add
+graph-store,,2->3,2021-04-02,develop,discard,j,map(in(graph: map(in(post: in(contents: filter))))); map(in(archive: map(in(post: in(contents: filter))))); map(in(update-log: map(in(add-graph|add-nodes: map(in(post: in(contents: filter))))))),no,approve-A,,discard,j,map(in(graph: map(in(post: in(contents: filter))))); map(in(archive: map(in(post: in(contents: filter))))); map(in(update-log: map(in(add-graph|add-nodes: map(in(post: in(contents: filter)))))))
+graph-store,,3->4,2021-04-30,develop,reshape,,in(graphs: map(in(graph: map(in(post: wrap(%&)))))); in(archive: same); remove(tag-queries); add(tag-queries); remove(validators); in(update-logs: map(remove; add)),yes,approve-B,,discard,j,map(in(graph: map(in(post: wrap)))); map(in(archive: map(in(post: wrap)))); in(tag-queries: remove;add); in(validators: remove;add); map(in(update-log: remove;add))
+graph-store,,4->5,2021-04-30,develop,derive,,in(update-logs: map(compute)),no,approve-B,,repair,,map(in(update-log: compute))
+graph-store,,5->6,2022-03-24,intro,discard,j,map(in(update-log: filter)),no,approve-A,,discard,j,map(in(update-log: filter))
+graph-store,,6->7,2023-01-04,develop,discard,ejo,in(archive: remove;add); in(graphs: filter); in(update-logs: filter); map(in(graph: map(in(post: in(signatures: remove;add))))); map(in(update-log: map(in(signatures: remove;add)))),no,approve-A,,discard,"e,o,j",in(archive: remove;add); in(graphs: filter); in(update-logs: filter); map(in(graph: map(in(post: in(signatures: remove;add))))); map(in(update-log: map(in(signatures: remove;add))))

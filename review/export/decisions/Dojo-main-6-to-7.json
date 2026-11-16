@@ -1,0 +1,12 @@
+{
+  "composable": false,
+  "decision": "approve-B",
+  "flags": "j",
+  "kind": "discard",
+  "notes": "",
+  "ops": "in(hoc: map(remove;add(poy)))",
+  "reviewedAt": "2026-11-16T01:41:28.028Z",
+  "step": "6->7",
+  "sub": "",
+  "system": "Dojo"
+}

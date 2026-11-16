@@ -1,0 +1,12 @@
+{
+  "composable": false,
+  "decision": "approve-B",
+  "flags": "j",
+  "kind": "discard",
+  "notes": "",
+  "ops": "remove(state); add(state)",
+  "reviewedAt": "2026-11-16T01:55:23.752Z",
+  "step": "0-4->8",
+  "sub": "",
+  "system": "metadata-store"
+}

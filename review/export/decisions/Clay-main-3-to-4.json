@@ -1,0 +1,12 @@
+{
+  "composable": true,
+  "decision": "approve-B",
+  "flags": "",
+  "kind": "add",
+  "notes": "",
+  "ops": "in(hoy: map(in(rus: map(in(ref: in(bom: map(add(have), add(need), add(nako), add(busy)))), in(qyx: map-keys(in(for: add(ver)))))))); in(rom: in(dos: map(in(qyx: map-keys(in(for: add(ver)))))))",
+  "reviewedAt": "2026-11-16T01:45:05.608Z",
+  "step": "3->4",
+  "sub": "",
+  "system": "Clay"
+}

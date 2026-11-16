@@ -1,0 +1,12 @@
+{
+  "composable": false,
+  "decision": "approve-B",
+  "flags": "ej",
+  "kind": "repair",
+  "notes": "",
+  "ops": "in(dogs: map(in(number: compute)))",
+  "reviewedAt": "2026-11-16T01:56:57.944Z",
+  "step": "6->7",
+  "sub": "",
+  "system": "eth-watcher"
+}

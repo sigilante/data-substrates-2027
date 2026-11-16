@@ -1,0 +1,12 @@
+{
+  "composable": false,
+  "decision": "approve-B",
+  "flags": "o",
+  "kind": "derive",
+  "notes": "",
+  "ops": "in(ark: map(in(rail: add(publisher), read)))",
+  "reviewedAt": "2026-11-16T01:55:01.136Z",
+  "step": "7->8",
+  "sub": "kiln",
+  "system": "Hood"
+}

@@ -1,0 +1,12 @@
+{
+  "composable": false,
+  "decision": "approve-B",
+  "flags": "ej",
+  "kind": "derive",
+  "notes": "",
+  "ops": "remove(act); remove(cue); add(pud); add(pun: compute); in(rom: in(dos: map(in(dom: add(fod), add(fer: compute))))); in(hoy: map(in(rus: map(in(dom: add(fod), add(fer)), in(ref: remove(pur), remove(pud), in(bom: filter), in(fod: filter), in(haw: add)))))))",
+  "reviewedAt": "2026-11-16T01:45:03.312Z",
+  "step": "2->3",
+  "sub": "",
+  "system": "Clay"
+}

@@ -1,0 +1,12 @@
+{
+  "composable": false,
+  "decision": "approve-B",
+  "flags": "o",
+  "kind": "repair",
+  "notes": "",
+  "ops": "in(rift: read)",
+  "reviewedAt": "2026-11-16T01:44:53.350Z",
+  "step": "14->15",
+  "sub": "",
+  "system": "Ames"
+}

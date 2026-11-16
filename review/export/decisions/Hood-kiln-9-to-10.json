@@ -1,0 +1,12 @@
+{
+  "composable": false,
+  "decision": "approve-B",
+  "flags": "ej",
+  "kind": "discard",
+  "notes": "",
+  "ops": "remove(wef); remove(syn); add(nyz); remove(ark); add(zyn)",
+  "reviewedAt": "2026-11-16T01:55:03.320Z",
+  "step": "9->10",
+  "sub": "kiln",
+  "system": "Hood"
+}

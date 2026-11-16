@@ -1,0 +1,12 @@
+{
+  "composable": true,
+  "decision": "approve-B",
+  "flags": "",
+  "kind": "discard",
+  "notes": "",
+  "ops": "remove(pun)",
+  "reviewedAt": "2026-11-16T01:45:10.151Z",
+  "step": "5->6",
+  "sub": "",
+  "system": "Clay"
+}

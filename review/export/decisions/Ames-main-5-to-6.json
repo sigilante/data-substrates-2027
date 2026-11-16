@@ -1,0 +1,12 @@
+{
+  "composable": false,
+  "decision": "approve-B",
+  "flags": "o",
+  "kind": "derive",
+  "notes": "",
+  "ops": "in(peers: map(in(azimuth-state: add(rift), read)))",
+  "reviewedAt": "2026-11-16T01:42:45.280Z",
+  "step": "5->6",
+  "sub": "",
+  "system": "Ames"
+}

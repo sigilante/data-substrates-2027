@@ -1,0 +1,39 @@
+system,sub,step,path
+metadata-store,,0-4->8,pkg/landscape/app/metadata-store.hoon
+metadata-store,,5->6,pkg/landscape/app/metadata-store.hoon
+metadata-store,,6->7,pkg/landscape/app/metadata-store.hoon
+metadata-store,,7->8,pkg/landscape/app/metadata-store.hoon
+metadata-store,,8->9,pkg/landscape/app/metadata-store.hoon
+metadata-store,,9->10,pkg/landscape/app/metadata-store.hoon
+metadata-store,,10->11,pkg/landscape/app/metadata-store.hoon
+metadata-store,,11->12,pkg/landscape/app/metadata-store.hoon
+eth-watcher,,0->1,pkg/arvo/app/eth-watcher.hoon
+eth-watcher,,1->2,pkg/arvo/app/eth-watcher.hoon
+eth-watcher,,2->3,pkg/arvo/app/eth-watcher.hoon
+eth-watcher,,3->4,pkg/arvo/app/eth-watcher.hoon
+eth-watcher,,4->5,pkg/arvo/app/eth-watcher.hoon
+eth-watcher,,5->6,pkg/arvo/app/eth-watcher.hoon
+eth-watcher,,6->7,pkg/arvo/app/eth-watcher.hoon
+roller,,0->1,pkg/arvo/app/roller.hoon
+roller,,1->2,pkg/arvo/app/roller.hoon
+roller,,2->3,pkg/arvo/app/roller.hoon
+roller,,3->4,pkg/arvo/app/roller.hoon
+roller,,4->5,pkg/arvo/app/roller.hoon
+roller,,5->6,pkg/arvo/app/roller.hoon
+chat-cli,,0->1,pkg/landscape/app/chat-cli.hoon
+chat-cli,,1->2,pkg/landscape/app/chat-cli.hoon
+chat-cli,,2->3,pkg/landscape/app/chat-cli.hoon
+chat-cli,,3->4,pkg/landscape/app/chat-cli.hoon
+azimuth,,0->1,pkg/arvo/app/azimuth.hoon
+azimuth,,1->7,pkg/arvo/app/azimuth.hoon
+azimuth,,2->3,pkg/arvo/app/azimuth.hoon
+azimuth,,3->4,pkg/arvo/app/azimuth.hoon
+azimuth,,4->5,pkg/arvo/app/azimuth.hoon
+azimuth,,5->6,pkg/arvo/app/azimuth.hoon
+azimuth,,6->7,pkg/arvo/app/azimuth.hoon
+graph-store,,0/1->(reject),pkg/landscape/app/graph-store.hoon (+ pkg/landscape/lib/graph-store.hoon ++upgrade)
+graph-store,,2->3,pkg/landscape/app/graph-store.hoon (+ pkg/landscape/lib/graph-store.hoon ++upgrade)
+graph-store,,3->4,pkg/landscape/app/graph-store.hoon (+ pkg/landscape/lib/graph-store.hoon ++upgrade)
+graph-store,,4->5,pkg/landscape/app/graph-store.hoon (+ pkg/landscape/lib/graph-store.hoon ++upgrade)
+graph-store,,5->6,pkg/landscape/app/graph-store.hoon (+ pkg/landscape/lib/graph-store.hoon ++upgrade)
+graph-store,,6->7,pkg/landscape/app/graph-store.hoon (+ pkg/landscape/lib/graph-store.hoon ++upgrade)

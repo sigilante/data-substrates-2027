@@ -1,0 +1,12 @@
+{
+  "composable": false,
+  "decision": "approve-A",
+  "flags": "j",
+  "kind": "discard",
+  "notes": "",
+  "ops": "remove;add;rename;in(eggs: map(remove;rename;in(old-state: compute)))",
+  "reviewedAt": "2026-11-16T01:44:35.171Z",
+  "step": "5->6",
+  "sub": "",
+  "system": "Gall"
+}

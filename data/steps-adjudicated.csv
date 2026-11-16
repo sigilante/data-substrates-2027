@@ -1,0 +1,112 @@
+system,sub,step,date,date_kind,kind,flags,ops,lens,decision,notes,agent_kind,agent_flags,agent_ops
+Gall,,0->1,2019-10-25,develop,none,,,yes,approve-A,,none,,
+Gall,,1->2,2019-12-05,develop,add,,add(outstanding),yes,approve-B,,add,,add
+Gall,,2->3,2020-02-10,develop,none,,,yes,approve-A,,none,,
+Gall,,3->4,2020-04-21,develop,repair,j,remove;add(outstanding),no,approve-B,,discard,j,remove;add
+Gall,,4->5,2020-04-22,develop,repair,j,remove;add(outstanding),no,approve-B,,discard,j,remove;add
+Gall,,5->6,2020-04-24,develop,discard,j,remove;add;rename;in(eggs: map(remove;rename;in(old-state: compute))),no,approve-A,,discard,j,remove;add;rename;in(eggs: map(remove;rename;in(old-state: compute)))
+Gall,,6->7,2020-08-26,develop,repair,ej,add(wipe-eyre-subs); in(eggs: map(in(watches: in(inbound: filter)))),no,approve-B,,add,,add
+Gall,,7->8,2021-10-04,develop,reshape,ej,remove(wipe-eyre-subs); in(eggs: map(in(old-state: convert))),no,approve-B,,reshape,,remove;in(eggs: map(in(old-state: convert)))
+Gall,,8->9,2022-11-15,develop,add,,"in(eggs: map(hoist(inbound), hoist(outbound), add(sub-nonce), add(boar: compute))); in(blocked: add(bug))",no,approve-B,,reshape,,add;in(eggs: map(hoist;hoist;rename;rename;remove;add;compute))
+Gall,,9->10,2022-11-15,develop,discard,j,in(outstanding: map(filter)),no,approve-A,,discard,j,in(outstanding: map(filter))
+Gall,,10->11,2023-01-04,develop,reshape,,"in(eggs: map(remove(live), add(code), in(old-state: convert)))",yes,approve-B,,reshape,,in(eggs: map(remove;add;in(old-state: convert)))
+Gall,,11->12,2023-04-25,develop,add,,"in(eggs: map(convert(%live tag), add(sky)))",yes,approve-B,,add,,add
+Gall,,12->13,2023-05-01,develop,add,,in(eggs: map(in(%live: add(ken)))),yes,approve-B,,add,,add
+Gall,,13->14,2023-08-29,develop,reshape,,"in(blocked: map(map(in(routes: in(attributing: plunge(ship), add(path))))))",yes,approve-B,,add,,add
+Gall,,14->15,2023-10-09,develop,add,,add(leaves),yes,approve-B,,add,,add
+Gall,,15->16,2024-01-31,develop,reshape,j,in(eggs: map(remove;add;add;add;add;in(sky: container;map(in(fan: compute;container))))),no,approve-A,,reshape,j,in(eggs: map(remove;add;add;add;add;in(sky: container;map(in(fan: compute;container)))))
+Gall,,16->17,2025-06-16,develop,discard,j,in(blocked: map(filter;map(in(duct: compute)))),no,approve-A,,discard,j,in(blocked: map(filter;map(in(duct: compute))))
+Gall,,17->18,2025-11-04,develop,add,,add(flub-ducts); add(flubs); add(halts),yes,approve-B,,add,,add
+Gall,,18->19,2025-12-18,develop,repair,,in(blocked: map(map(in(duct: compute)))),no,approve-B,,repair,,compute
+Gall,,19->20,2026-04-02,develop,re-encode,,in(eggs: map(re-encode)); in(blocked: map(map(in(move: re-encode)))),no,approve-B,,re-encode,,re-encode
+Ames,old,nest->reset,2014-04-11,intro,discard,j,remove(fox);add(fox),no,approve-B,,discard,,remove;add
+Ames,old,furt0->fort1,2017-05-16,intro,add,,add(bad),yes,approve-B,,add,,add
+Ames,old,%0->%1,2018-04-25,intro,add,,add(ten),yes,approve-B,,add,,add
+Ames,,1->2,2019-12-12,develop,add,,add(veb); in(peers: map(in(qos: add(last-contact)))),yes,approve-B,,add,,add
+Ames,,2->3,2019-12-12,develop,reshape,,plunge(veb); rename(bug); in(bug: add(ships)),yes,approve-B,,reshape,,add;plunge;in(bug: add)
+Ames,,3->4,2020-07-27,develop,discard,j,in(events: filter),no,approve-A,,discard,j,in(events: filter)
+Ames,,4->5,2021-03-05,develop,repair,,in(peers: map(in(snd: map(in(packet-pump-state: in(metrics: in(num-live: compute))))))),no,approve-B,,repair,,compute
+Ames,,5->6,2022-06-07,develop,derive,o,"in(peers: map(in(azimuth-state: add(rift), read)))",no,approve-B,,derive,o,compute;read
+Ames,,6->7,2022-11-15,develop,add,,"in(peers: map(add(closing), add(corked), add(krocs)))",yes,approve-B,,add,,add
+Ames,,7->8,2022-11-15,develop,add,e,add(corks),no,approve-B,,add,e,add
+Ames,,8->9,2023-01-17,develop,add,,add(snub),yes,approve-B,,add,,add
+Ames,,9->10,2023-02-01,develop,add,,in(bug: in(veb: add)),yes,approve-B,,add,,add
+Ames,,10->11,2023-02-13,develop,add,,add(cong),yes,approve-B,,add,,add
+Ames,,11->12,2023-03-17,develop,reshape,,"in(snub: plunge(ships), add(form)); remove(corks); in(peers: map(remove(krocs)))",yes,approve-B,,reshape,,remove;plunge;add;in(peers: map(remove))
+Ames,,12->13,2023-04-25,develop,derive,o,add(rift); read; in(crypto-core: compute); in(bug: in(veb: add)); in(peers: map(add(keens))),no,approve-B,,re-encode,o,re-encode
+Ames,,13->14,2023-05-02,develop,reshape,,in(peers: map(in(keens: map(in(wan: container))))),no,approve-A,,reshape,,in(peers: map(in(keens: map(in(wan: container)))))
+Ames,,14->15,2023-06-20,develop,repair,o,in(rift: read),no,approve-B,,derive,o,compute;read
+Ames,,15->16,2023-08-17,develop,repair,,in(cong: convert),yes,approve-B,,repair,,compute
+Ames,,16->17,2023-08-29,develop,add,eo,"in(cong: wrap); add(dead); in(dead: in(cork: compute)); in(peers: map(in(snd: map(in(metrics: remove(num-live)))), in(keens: map(in(metrics: remove(num-live)))), in(rcv: map(in(nax: filter)))))",no,approve-B,,reshape,eo,add;add;in(peers: map(in(snd: map(in(packet-pump-state: in(metrics: remove))));in(keens: map(in(metrics: remove)));in(rcv: map(in(nax: filter)))))
+Ames,,17->18,2023-11-07,develop,none,e,,no,approve-A,,none,e,
+Ames,,18->19,2024-01-31,develop,reshape,j,add;in(peers: map(add;in(snd: map(in(unsent-messages: map(compute)))))),no,approve-A,,reshape,j,add;in(peers: map(add;in(snd: map(in(unsent-messages: map(compute))))))
+Ames,,19->20,2024-03-20,develop,add,e,in(bug: in(veb: add)),no,approve-B,,add,e,add
+Ames,,20->21,2024-04-21,develop,discard,j,in(peers: map(remove)),no,approve-A,,discard,j,in(peers: map(remove))
+Ames,,21->22,2024-11-05,develop,add,e,in(dead: add(rots)),no,approve-B,,add,e,add
+Ames,,22->23,2024-11-25,develop,reshape,e,in(crypto-core: hoist(priv)); remove(crypto-core); rename(chain->server-chain); in(dead: add(chum)); add(chums); add(core),no,approve-B,,reshape,e,compute;remove;in(dead: add);rename;add;add
+Ames,,23->24,2025-02-27,develop,derive,j,compute,no,approve-A,,derive,j,compute
+Ames,,24->25,2025-03-18,develop,add,,in(chums: map(in(lane: add(hop)))),yes,approve-B,,add,j,add
+Ames,,25->26,2025-08-05,develop,add,,"in(chums: map(in(flows: map(in(snd: in(send-window: add(acks))))), add(weir)))",yes,approve-B,,add,,add
+Ames,,26->27,2025-08-13,develop,none,eo,,no,approve-A,,none,eo,
+Ames,,27->28,2025-11-04,develop,add,,in(peers: map(in(tip: add(halt)))); in(chums: map(in(flows: map(add(halt))))),yes,approve-B,,add,,add
+Ames,,28->29,2025-12-02,develop,none,eo,,no,approve-A,,none,eo,
+Ames,,29->30,2026-04-02,develop,derive,,in(priv: compute); in(peers: map(in(azimuth-state: in(pass: compute)))); in(chums: map(in(azimuth-state: in(pass: compute)))),no,approve-B,,derive,,compute
+Ames,,30->31,2026-04-10,develop,discard,j,in(chums: map(remove(weir))); in(core: convert),no,approve-B,,discard,j,convert;in(chums: map(remove))
+Clay,,2->3,2020-07-27,develop,derive,ej,"remove(act); remove(cue); add(pud); add(pun: compute); in(rom: in(dos: map(in(dom: add(fod), add(fer: compute))))); in(hoy: map(in(rus: map(in(dom: add(fod), add(fer)), in(ref: remove(pur), remove(pud), in(bom: filter), in(fod: filter), in(haw: add)))))))",no,approve-B,,reshape,ej,remove;remove;add;compute;in(rom: in(dos: map(in(dom: add;compute))));in(hoy: map(in(rus: map(in(dom: add;add);in(ref: remove;remove;in(bom: filter);in(fod: filter);in(haw: compute)))))))
+Clay,,3->4,2020-11-11,develop,add,,"in(hoy: map(in(rus: map(in(ref: in(bom: map(add(have), add(need), add(nako), add(busy)))), in(qyx: map-keys(in(for: add(ver)))))))); in(rom: in(dos: map(in(qyx: map-keys(in(for: add(ver)))))))",yes,approve-B,,reshape,,in(rom: in(dos: map(in(qyx: map(in(for: plunge;add))))));in(hoy: map(in(rus: map(in(qyx: map(in(for: plunge;add)));in(ref: in(bom: map(add;add;add;add))))))))
+Clay,,4->5,2020-11-11,develop,discard,j,remove;add(pun),no,approve-B,,discard,,remove;add
+Clay,,5->6,2021-03-05,develop,discard,,remove(pun),yes,approve-B,,none,,remove
+Clay,,6->7,2021-03-05,develop,discard,,in(rom: in(dos: map(in(dom: remove;add(fod))))); in(hoy: map(in(rus: map(in(dom: remove;add(fod)))))),yes,approve-B,,discard,,in(rom: in(dos: map(in(dom: remove;add))));in(hoy: map(in(rus: map(in(dom: remove;add)))))
+Clay,,7->8,2021-05-19,develop,add,,in(rom: in(dos: map(add(fiz)))); in(hoy: map(in(rus: map(add(fiz))))),yes,approve-B,,add,,add
+Clay,,8->9,2021-10-04,develop,discard,,"in(rom: in(dos: map(in(dom: remove(fer), add(fod))))); in(hoy: map(in(rus: map(in(dom: remove(fer), add(fod))))))",yes,approve-B,,discard,,in(rom: in(dos: map(in(dom: remove;remove;add))));in(hoy: map(in(rus: map(in(dom: remove;remove;add)))))
+Clay,,9->10,2021-10-04,develop,add,,add(dist-upgraded),yes,approve-B,,add,e,add
+Clay,,10->11,2022-06-07,develop,reshape,j,"in(ran: in(lat: filter, map(compute))); in(dos: map(remove;add(fiz), in(qyx: map(compute)), in(dom: remove(ank), add(tom), add(nor), remove;add(fod)))); in(hoy: map(in(rus: map(same, in(ref: in(bom: map(remove(have), in(nako: map(in(bar: remove;add)))))))))); add(fad); in(mon: map(compute)); remove(dist-upgraded)",no,approve-B,,reshape,j,in(rom: in(dos: map(remove;add;in(qyx: map(in(rove: compute)));in(dom: remove;add;add;remove;add))));in(hoy: map(in(rus: map(remove;add;in(qyx: map(in(rove: compute)));in(dom: remove;add;add;remove;add);in(ref: in(bom: map(remove;in(nako: map(map(remove))))))))));in(ran: in(lat: filter;map(remove;hoist)));add;in(mon: map(in(r: remove;add)));remove
+Clay,,11->12,2022-06-07,develop,add,,add(bug),yes,approve-B,,add,,add
+Clay,,12->13,2023-01-04,develop,add,j,"in(dos: map(in(dom: add(liv), add(ren)))); in(hoy: map(in(rus: map(in(dom: add(liv), add(ren)))))); add(tyr); add(tur); in(dos: in(base: in(dom: in(liv: convert))))",no,approve-B,,add,j,add
+Clay,,13->14,2023-04-25,develop,reshape,,"in(bug: add(sad)); in(hoy: map(in(rus: map(in(ref: in(bom: map(add(have), in(busy: convert))))))))",yes,approve-B,,reshape,,add;in(hoy: map(in(rus: map(in(ref: in(bom: map(add;in(busy: convert))))))))
+Clay,,14->15,2024-11-25,develop,add,,in(dos: map(in(fiz: add(ese)))),yes,approve-B,,add,j,add
+Clay,,15->16,2026-04-02,develop,re-encode,,"in(dos: map(in(qyx: re-encode), in(dom: remove(fod)))); in(hoy: map(in(rus: map(in(ref: re-encode), in(qyx: re-encode), in(dom: remove(fod)))))); remove(fad)",no,approve-B,,re-encode,,re-encode
+Dojo,,untagged->0,2015-09-03,intro,add,,in(hoc: map(add(buf))),yes,approve-B,,reshape,,add;in(hoc: map(add))
+Dojo,,0->1,2015-09-09,intro,discard,j,in(hoc: map(remove;add(poy))),no,approve-B,,discard,,in(hoc: map(remove;add))
+Dojo,,1->2,2015-09-11,intro,discard,j,in(hoc: map(remove;add(poy))),no,approve-B,,discard,,in(hoc: map(remove;add))
+Dojo,,2->3,2015-09-29,intro,discard,j,in(p: map(remove;add(poy))),no,approve-B,,discard,,in(hoc: map(remove;add))
+Dojo,,3->4,2015-11-25,intro,add,,add(egg),yes,approve-B,,add,,add
+Dojo,,4->5,2016-11-30,intro,discard,j,"in(q: map(remove;add(sur), remove;add(lib)))",no,approve-B,,discard,,in(hoc: map(remove;add;remove;add))
+Dojo,,5->6,2020-05-06,intro,add,,add(acl),yes,approve-B,,add,,add
+Dojo,,6->7,2021-09-23,intro,discard,j,in(hoc: map(remove;add(poy))),no,approve-B,,discard,j,in(hoc: map(remove;add))
+Dojo,,7->8,2021-10-06,intro,discard,j,"in(hoc: map(remove;add(poy), in(dir: remove;add(beak))))",no,approve-B,,discard,j,in(hoc: map(remove;add;in(dir: remove;add)))
+Dojo,,8->9,2022-02-20,intro,reshape,ej,"in(hoc: filter, map-keys(compute))",no,approve-B,,reshape,ej,in(hoc: filter;compute)
+Dojo,,9->10,2025-10-31,intro,re-encode,j,"in(hoc: map(remove;add(poy), in(var: map(re-encode))))",no,approve-B,,re-encode,j,re-encode
+Hood,outer,0->1,2016-05-02,intro,none,,,yes,approve-A,,none,,
+Hood,outer,1->2,2019-12-13,intro,none,e,,no,approve-A,,none,e,
+Hood,outer,2->3,2020-02-14,intro,none,e,,no,approve-A,,none,e,
+Hood,outer,3->4,2020-04-27,intro,none,ej,,no,approve-B,,none,e,
+Hood,outer,4->5,2020-05-22,intro,none,e,,no,approve-B,,none,,
+Hood,outer,5->6,2020-06-17,intro,none,e,,no,approve-A,,none,e,
+Hood,outer,6->7,2020-06-17,intro,reshape,,hoist(lac.drum); hoist(lac.helm); hoist(lac.kiln); remove(lac),yes,approve-B,,reshape,,container;filter;map(remove)
+Hood,outer,7->8,2020-06-24,intro,none,e,,no,approve-A,,none,e,
+Hood,outer,8->9,2020-07-28,intro,none,e,,no,approve-A,,none,e,
+Hood,outer,9->10,2020-08-19,intro,none,e,,no,approve-A,,none,e,
+Hood,outer,10->11,2020-11-02,intro,none,e,,no,approve-A,,none,e,
+Hood,outer,11->12,2021-01-19,intro,none,e,,no,approve-A,,none,e,
+Hood,outer,12->13,2021-05-18,intro,none,e,,no,approve-A,,none,e,
+Hood,outer,27->28,2025-06-26,intro,none,eo,,no,approve-A,,none,eo,
+Hood,outer,28->29,2026-02-19,intro,add,,add,yes,approve-A,,add,,add
+Hood,kiln,0->1,2020-07-27,develop,derive,ej,remove(autoload-on); remove(cur-hoon); remove(cur-arvo); remove(cur-zuse); remove(cur-vanes); add(ota); in(syn: filter); in(ota: compute),no,approve-B,,discard,ej,remove;remove;remove;remove;remove;in(syn: filter);add;compute
+Hood,kiln,1->2,2021-07-22,develop,add,,add,yes,approve-A,,add,,add
+Hood,kiln,2->3,2021-10-04,develop,discard,,remove(ota); add(ark),yes,approve-B,,discard,,remove;add
+Hood,kiln,3->4,2021-10-04,develop,add,,in(ark: map(in(rein: add(liv)))),yes,approve-B,,add,,add
+Hood,kiln,4->5,2021-10-04,develop,reshape,,"in(ark: map(plunge(rail: ship, desk, aeon), in(rail: add(paused))))",yes,approve-B,,reshape,,in(ark: map(add;plunge;plunge;plunge))
+Hood,kiln,5->6,2021-10-04,develop,add,,add(wef),yes,approve-B,,add,,add
+Hood,kiln,6->7,2021-10-04,develop,reshape,,"in(ark: map(plunge(rail: next), in(rail: wrap)))",yes,approve-B,,reshape,,in(ark: map(plunge;in(rail: wrap)))
+Hood,kiln,7->8,2021-10-04,develop,derive,o,"in(ark: map(in(rail: add(publisher), read)))",no,approve-B,,derive,o,compute;read
+Hood,kiln,8->9,2021-10-07,develop,none,ejo,,no,approve-B,,none,,
+Hood,kiln,9->10,2023-01-04,develop,discard,ej,remove(wef); remove(syn); add(nyz); remove(ark); add(zyn),no,approve-B,,discard,ej,remove;remove;add;remove;add
+Hood,kiln,10->11,2024-01-31,develop,add,,add(hop),yes,approve-B,,add,,add
+Hood,drum,0->1,2016-05-02,intro,derive,j,add(sys); compute,no,approve-B,,repair,j,compute
+Hood,drum,1->2,2016-10-19,intro,reshape,,"in(bin: map(in(mir: in(q: wrap, add(stye)), in(p: compute))))",no,approve-B,,reshape,,in(bin: map(in(mir: in(p: compute);in(q: plunge;add;wrap))))
+Hood,drum,2/3->4,2021-10-04,develop,discard,,remove(ray); remove(fur),yes,approve-B,,discard,,remove;remove
+Hood,drum,4->5,2023-01-12,develop,reshape,,"in(bin: map(in(fug: map(in(blt: in(p: map(wrap)), in(q: map(wrap))))))); plunge(eel: bin)",yes,approve-B,,reshape,,remove;in(bin: map(compute;in(fug: map(map(in(blt: in(p: map(convert));in(q: map(convert))))))))
+Hood,drum,5->6,2023-02-24,develop,add,e,add(nob),no,approve-B,,add,e,add
+Hood,helm,0->1,2020-06-17,intro,reshape,j,"in(hoc: head, hoist(mass-timer)); remove(hoc)",no,approve-B,,discard,,in(hoc: filter;head);hoist;remove
+Hood,helm,1->2,2021-12-17,intro,none,e,,no,approve-B,,none,e,

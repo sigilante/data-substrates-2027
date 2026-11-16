@@ -1,0 +1,12 @@
+{
+  "composable": false,
+  "decision": "approve-B",
+  "flags": "j",
+  "kind": "discard",
+  "notes": "",
+  "ops": "remove(fox);add(fox)",
+  "reviewedAt": "2026-11-16T01:44:48.918Z",
+  "step": "nest->reset",
+  "sub": "old",
+  "system": "Ames"
+}

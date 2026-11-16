@@ -1,0 +1,12 @@
+{
+  "composable": false,
+  "decision": "approve-B",
+  "flags": "",
+  "kind": "derive",
+  "notes": "",
+  "ops": "in(priv: compute); in(peers: map(in(azimuth-state: in(pass: compute)))); in(chums: map(in(azimuth-state: in(pass: compute))))",
+  "reviewedAt": "2026-11-16T01:42:02.455Z",
+  "step": "29->30",
+  "sub": "",
+  "system": "Ames"
+}
