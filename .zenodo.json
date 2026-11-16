@@ -1,0 +1,32 @@
+{
+  "upload_type": "dataset",
+  "title": "Data for Schema Change in the Wild: a census of state migrations in Urbit, 2013–2026",
+  "version": "1.0.1",
+  "creators": [
+    {
+      "name": "Davis, Neal E.",
+      "affiliation": "ZeroAttest",
+      "orcid": "0000-0002-1131-8319"
+    }
+  ],
+  "description": "<p>A classified census of state migrations in the Urbit personal server, reconstructed from public Git history (2013–2026): 111 migration steps in five system components (Ames, Gall, Clay, Dojo, Hood) and 38 migration rows in six userspace agents.</p><p>Each step carries a kind, flags, and a sequence of operators drawn from Cambria's lens operators plus five additions, with the labels of two independent LLM coders and the author's adjudication. Includes version-landing histories, network protocol-version changes, the review interface with per-step diffs, and the scripts that generate every table and figure in the accompanying paper, <em>Schema Change in the Wild</em> (Substrates 2027). Data are CC BY 4.0; code is MIT (see LICENSE).</p>",
+  "license": "cc-by-4.0",
+  "access_right": "open",
+  "keywords": [
+    "schema evolution",
+    "state migration",
+    "Urbit",
+    "malleable systems",
+    "local-first software",
+    "edit lenses",
+    "Cambria",
+    "software archaeology"
+  ],
+  "related_identifiers": [
+    {
+      "identifier": "https://github.com/urbit/urbit",
+      "relation": "isDerivedFrom",
+      "resource_type": "software"
+    }
+  ]
+}

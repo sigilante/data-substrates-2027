@@ -2,7 +2,7 @@ cff-version: 1.2.0
 message: "If you use this data or code, please cite it as below, and cite the paper (preferred-citation)."
 type: dataset
 title: "Data for Schema Change in the Wild: a census of state migrations in Urbit, 2013–2026"
-version: 1.0.0
+version: 1.0.1
 authors:
   - family-names: Davis
     given-names: Neal E.
