@@ -1,0 +1,56 @@
+cff-version: 1.2.0
+message: "If you use this data or code, please cite it as below, and cite the paper (preferred-citation)."
+type: dataset
+title: "Data for Schema Change in the Wild: a census of state migrations in Urbit, 2013–2026"
+version: 1.0.0
+authors:
+  - family-names: Davis
+    given-names: Neal E.
+    orcid: "https://orcid.org/0000-0002-1131-8319"
+    affiliation: ZeroAttest
+license:
+  - CC-BY-4.0
+  - MIT
+repository-code: "https://github.com/sigilante/data-substrates-2027"
+abstract: >-
+  A classified census of state migrations in the Urbit personal server,
+  reconstructed from public Git history (2013–2026): 111 migration steps in
+  five system components (Ames, Gall, Clay, Dojo, Hood) and 38 migration rows
+  in six userspace agents. Each step carries a kind, flags, and a sequence of
+  operators drawn from Cambria's lens operators plus five additions, with the
+  labels of two independent LLM coders and the author's adjudication. Includes
+  version-landing histories, network protocol-version changes, the review
+  interface with per-step diffs, and the scripts that generate every table
+  and figure in the accompanying paper. Data are CC BY 4.0; code is MIT.
+keywords:
+  - schema evolution
+  - state migration
+  - Urbit
+  - malleable systems
+  - local-first software
+  - edit lenses
+  - Cambria
+  - software archaeology
+references:
+  - type: software
+    title: "urbit/urbit"
+    authors:
+      - name: "Urbit contributors"
+    url: "https://github.com/urbit/urbit"
+    notes: "Analysed at commit 2a6d5dd226 (develop, 2026-04-13)."
+preferred-citation:
+  type: conference-paper
+  title: "Schema Change in the Wild"
+  authors:
+    - family-names: Davis
+      given-names: Neal E.
+      orcid: "https://orcid.org/0000-0002-1131-8319"
+      affiliation: ZeroAttest
+  collection-title: "Companion Proceedings of the International Conference on the Art, Science, and Engineering of Programming (Substrates '27)"
+  conference:
+    name: "Substrates 2027, <Programming> 2027"
+    city: Kyoto
+    country: JP
+  publisher:
+    name: ACM
+  year: 2027
