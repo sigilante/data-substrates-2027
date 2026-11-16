@@ -119,3 +119,5 @@ The quoted commit messages, PR text and code excerpts belong to their authors in
 ## Citation
 
 Davis, N. E. 2027. *Schema Change in the Wild.* In Companion Proceedings of the 11th International Conference on the Art, Science, and Engineering of Programming (Substrates '27). ACM. DOI to be added.
+
+This dataset is archived on Zenodo. The concept DOI [10.5281/zenodo.24269354](https://doi.org/10.5281/zenodo.24269354) always resolves to the latest version; v1.0.1, the version used for the submission, is [10.5281/zenodo.24269355](https://doi.org/10.5281/zenodo.24269355).

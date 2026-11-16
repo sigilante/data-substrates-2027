@@ -20,7 +20,12 @@ SERIES = ["add", "reshape", "discard", "none", "computed"]
 COLOR = dict(zip(SERIES, ["#2a78d6", "#eb6834", "#1baf7a", "#eda100", "#e87ba4"]))  # slots 1-5, validated
 LABEL = {"computed": "derive / repair / re-encode"}
 INK, INK2, MUTED, GRID = "#0b0b0b", "#52514e", "#8a8984", "#e4e3df"
-plt.rcParams.update({"font.family": "sans-serif", "font.size": 7.5, "axes.edgecolor": MUTED,
+# Titles, labels and legend in Helvetica; numeric tick labels (years, counts)
+# in Computer Modern (matplotlib's bundled cmr10) to match the text.
+NUM_FONT = "cmr10"
+plt.rcParams.update({"font.family": "Helvetica", "font.size": 7.5, "pdf.fonttype": 42,
+                     "axes.formatter.use_mathtext": True, "mathtext.fontset": "cm",
+                     "axes.edgecolor": MUTED,
                      "xtick.color": INK2, "ytick.color": INK2,
                      "axes.spines.top": False, "axes.spines.right": False})
 
@@ -46,6 +51,7 @@ for ax, s in zip(axes, SYSTEMS):
     ax.set_xlim(x0, x1); ax.set_ylim(0, ymax + 1)
     ax.yaxis.set_major_locator(matplotlib.ticker.MultipleLocator(5))
     ax.xaxis.set_major_locator(mdates.YearLocator(4)); ax.xaxis.set_major_formatter(mdates.DateFormatter("'%y"))
+    ax.tick_params(labelfontfamily=NUM_FONT)
 axes[0].set_ylabel("cumulative steps", color=INK2)
 handles = [plt.Line2D([], [], color=COLOR[k], linewidth=1.6) for k in SERIES]
 fig.legend(handles, [LABEL.get(k, k) for k in SERIES], loc="lower center", ncol=5,
