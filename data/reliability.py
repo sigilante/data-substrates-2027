@@ -12,7 +12,8 @@ X = {"filter","container","compute","read","re-encode"}
 def ops(s): return [t for t in re.findall(r"[a-z][a-z-]*", s or "") if t in C | X]
 A = {(r['system'], r['sub'], r['step']): r for r in csv.DictReader(open(os.path.join(HERE, 'steps.csv')))}
 def items(other):
-    rows = list(csv.DictReader(open(os.path.join(HERE, other))))
+    path = other if os.path.exists(other) else os.path.join(HERE, other)
+    rows = list(csv.DictReader(open(path)))
     out = []
     for b in rows:
         a = A[(b['system'], b['sub'], b['step'])]
